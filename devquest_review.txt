@@ -1,0 +1,992 @@
+6cb32be | 2025-10-06 | first commit
+e655031 | 2025-10-06 | Add arquivo html
+70e1bf6 | 2025-10-06 | Atualizado dia 16 de Dez as 11:07
+2651266 | 2025-10-06 | Add +bla
+776a271 | 2025-10-06 | Add tabelas
+77e482d | 2025-10-06 | Add README padrão
+501987d | 2025-10-06 | Adicionado GitIgnore baseado em Segurança
+8a91af2 | 2025-10-06 | Atualizado tabela
+9569b16 | 2025-10-08 | Voltando aos estudos
+86c5858 | 2025-10-08 | Merge branch 'main' of https://github.com/taissocout/DevQuest-Aulas
+a45b282 | 2025-10-08 | Adicionado comentarios explicativos e corrigido com IA para evitar bugs
+04a794e | 2025-10-08 | Adicionado comentarios e feita correção com IA para deixar melhor o funcionamento
+538a6eb | 2025-10-08 | Feito a correção e adicionado o tutorial no arquivo index de tabela, corrigido por ia e trocado os arquivos das pastas css e html para um diretorio anterios para deixar mais organizado
+4f2b7a5 | 2025-10-08 | Atualizado o arquivo READ.ME
+92cdecc | 2025-10-08 | Atualizado o arquivo READ.ME
+a308a48 | 2025-10-08 | Deletado um index no diretório principal
+1573d5f | 2025-10-08 | Limpeza no codigo para deixar ele clean
+114c5d4 | 2025-10-08 | Organização das pastas com números
+ab7e1ad | 2025-10-08 | Aprendendo inputs
+5139167 | 2025-10-08 | Input number
+d5a58c7 | 2025-10-10 | Adicionado Checkbox-radio e select
+4538b54 | 2025-10-10 | Atualizado o select com funções de selected e multiple
+c165031 | 2025-10-10 | Atualizando adicionando comentarios e corrigindo erros, adicionado pasta do texarea
+4580250 | 2025-10-10 | Adiconado a pasta button
+02586d6 | 2025-10-10 | Foi criado um formulário do zero, visto e corrigido pela ia com comentarios dentro do código
+6474ddc | 2025-10-10 | Feito ajustes e adicionado enctype e required nos campos
+dd6f05b | 2025-10-10 | adicionado pasta tags semanticas, feito correção e comentarios por ia como instrução
+3780bfd | 2025-10-13 | atualizado algumas tags semanticas como address, figure, aside e article
+0bfe066 | 2025-10-13 | ajustado e corrigido com ia para melhor entendimento com comentarios
+99e5b6b | 2025-10-13 | Iniciamos o css intermediário adciconamos a pasta efeito cascata
+5571200 | 2025-10-13 | Criada pasta estilos de texto, criado o codigo do zero, enviado para a ia para correção mas nenhumm erro e adicionado alguns comentarios para tutorial
+71156df | 2025-10-13 | Propriedádes fontes, com font-family entre outras propriedádes
+39d9f51 | 2025-10-13 | fontes customizadas do google
+b2c4e1b | 2025-10-13 | ReadMe Atualizado
+f1e36b1 | 2025-10-13 | Baixando fontes customizadas
+ad0761a | 2025-10-13 | Adicionado pasta fonts
+62f1588 | 2025-10-13 | atualização, fonte
+01e748f | 2025-10-13 | 06 - Links adicionado, customização de links com CSS
+0913ab3 | 2025-10-13 | Style.css ajustado sem erros
+dc150f7 | 2025-10-13 | Adicionado pasta 06 - Listas
+121d13a | 2025-10-13 | Adicionado 08 - Backgrounds
+d26c8f3 | 2025-10-13 | atualizado background style bg-position
+c1e5379 | 2025-10-15 | atualizado css com tag encurtada
+0b7efa4 | 2025-10-15 | resolvido o backgrond position encurtado
+a799754 | 2025-10-15 | Adicionado 08-Display
+949cf07 | 2025-10-15 | Atualizado 08-Display para  09-Display
+814c778 | 2025-10-15 | Ajustado o display none que estava com erro
+547ca0e | 2025-10-15 | Adicionado 10-posicions
+81bd930 | 2025-10-15 | Adicionado 11-position fixed
+17219fc | 2025-10-15 | Adicionado pasta responsividade + index.html
+cc5fba9 | 2025-10-15 | Relizado correção via IA depois de verificar alguns erros no codigo, pois não estava pegando algumas caracteristicas na pagina então foi realizado a correção estão comentadas no index e style
+40e50de | 2025-10-17 | Adicionado Float
+d7d067c | 2025-10-17 | Add pasta 14
+2825908 | 2025-10-17 | corrigido alguns erros via IA
+745cd17 | 2025-10-17 | Adicionado pasta 16
+d349e77 | 2025-10-17 | adcionado pasta src/css e arquivo style.css
+151a1e3 | 2025-10-17 | linkado o font awesome
+5f366d8 | 2025-10-20 | adcionado icons
+cf54aae | 2025-10-20 | renomeado de 16 para 15 corrigido o nome da pasta
+357fc83 | 2025-10-20 | adicionado explicação de como puxar direto do diretorio o icon pela pasta webfonts
+4c3ccd7 | 2025-10-20 | Iniciado HTML avançado e add a primeira pasta de imagens responsivas com tag picture
+e5da03a | 2025-10-20 | Substitui as imagens para imagens de cachorros
+b815085 | 2025-10-20 | Corrigido o lugar do index da aula de tag picture
+907ec26 | 2025-10-20 | Add pasta 02 facivon
+a4f07be | 2025-10-20 | Add pasta 03 caracteres e emojis
+afa474c | 2025-10-20 | add pasta 04 audio
+4e6869e | 2025-10-20 | Criado uma pagina tutorial com algumas formas de add audio na pagina
+82b5aac | 2025-10-20 | add thumb
+199bc75 | 2025-10-20 | Add pasta 06 iframe
+d12f048 | 2025-10-20 | corrigido com auxilio de IA por que o link do youtube não estava funcionando, foi substituido e corrigido
+d564f52 | 2025-10-20 | Add pasta 07 css avançado e 01 pseudo classe
+ab981ad | 2025-10-22 | Usando Vibe coding, fiz ajustes e melhorei o tipo de tutorial para estudos fututos, ajudando outros devs novos
+7e31906 | 2025-10-22 | add conteudo 02 pseudo elemento, criado e corrigido com ia
+37673c8 | 2025-10-22 | Add 03
+d717623 | 2025-10-22 | criado seletores corrigido e completado com outros seletores mais completo
+e818be1 | 2025-10-22 | Add 04 transform
+8dc4844 | 2025-10-22 | Add 05 Variaves, como usar variaveis dentro do css
+cb579fe | 2025-10-22 | Criado pasta 08 de css avançado iniciando estudos de flexbox conteiner - direction - wrap e flow
+7ea12b9 | 2025-10-22 | add 02 continuação de flex content justify
+45dea7b | 2025-10-24 | add 03 flex align items
+03852fa | 2025-10-24 | add 04 flex align content
+a4140c0 | 2025-10-24 | flex part 1  Grow - basis - shrink
+66c50be | 2025-10-24 | flex part 2 - Flex - Order - Self
+70b86dd | 2025-10-24 | chore: initialize DevQuest-Aulas project structure
+8b16324 | 2025-10-24 | docs: add README with course overview and objectives
+0a37292 | 2025-10-24 | feat: create HTML boilerplate with semantic structure
+133d667 | 2025-10-24 | docs: add comments explaining DOCTYPE and meta tags
+60ac513 | 2025-10-24 | feat: add heading hierarchy h1 through h6 example
+bbeea01 | 2025-10-24 | feat: add paragraph and text formatting tags
+e179031 | 2025-10-24 | feat: add anchor tags with internal and external links
+4844f68 | 2025-10-27 | docs: add tutorial comments for block vs inline elements
+4991bf9 | 2025-10-27 | fix: correct nesting of inline elements inside block
+0902dec | 2025-10-27 | style: add consistent indentation to HTML files
+cb1c01a | 2025-10-27 | feat: add ordered and unordered list examples
+44efcbc | 2025-10-27 | docs: explain difference between ul ol and dl tags
+b1794df | 2025-10-27 | feat: add image tag with alt text and dimensions
+1a9c46f | 2025-10-27 | fix: add missing alt attributes for accessibility
+980a575 | 2025-10-29 | docs: add comments about image optimization tips
+6a44b6c | 2025-10-29 | feat: add div and span structural examples
+1f8c037 | 2025-10-29 | docs: explain semantic HTML5 elements vs div soup
+37b7596 | 2025-10-29 | feat: add header nav main footer section structure
+bb84cb5 | 2025-10-29 | fix: correct invalid nesting in form example
+4648262 | 2025-10-29 | chore: add .gitignore for IDE and OS files
+25bf7f1 | 2025-10-29 | feat: link external stylesheet to HTML
+273e94d | 2025-10-29 | docs: add comments explaining CSS selector specificity
+65c5ac4 | 2025-10-29 | feat: add element class and id selector examples
+1616bd0 | 2025-10-29 | feat: implement box model with margin padding border
+a52ea97 | 2025-10-29 | docs: tutorial on box-sizing border-box vs content-box
+5c02fba | 2025-10-29 | feat: add color properties with hex rgb and named values
+ae79b19 | 2025-10-29 | fix: resolve conflicting CSS rules with specificity fix
+fe2717a | 2025-10-31 | feat: add display block inline and inline-block examples
+2941f8e | 2025-10-31 | docs: explain normal document flow
+1425b41 | 2025-10-31 | style: organize CSS with logical section comments
+a6c7dba | 2025-10-31 | feat: add basic image styling with border-radius
+cf00224 | 2025-10-31 | docs: add CSS reset explanation and implementation
+b9a3587 | 2025-11-03 | fix: correct margin collapse issue in vertical stacking
+50308ef | 2025-11-03 | feat: add background-color and text-color contrast examples
+ee89a90 | 2025-11-03 | docs: add accessibility notes for color contrast ratio
+615ecc7 | 2025-11-03 | feat: create basic HTML table with thead tbody tfoot
+71f828a | 2025-11-03 | docs: add comments for table semantic structure
+29f4fff | 2025-11-03 | feat: add colspan and rowspan examples
+2337fb6 | 2025-11-03 | feat: style table with CSS border-collapse and padding
+b0e34cc | 2025-11-03 | fix: correct missing td in table row
+0cdaccc | 2025-11-03 | docs: add tutorial on when to use tables vs CSS grid
+a0af0de | 2025-11-03 | feat: add zebra striping with nth-child selector
+705047a | 2025-11-03 | style: improve table readability with hover effect
+20b963d | 2025-11-03 | feat: add input types text email password number
+3893689 | 2025-11-03 | docs: add HTML5 input validation attributes tutorial
+7e44c29 | 2025-11-03 | feat: add placeholder and required attributes
+730a7dd | 2025-11-03 | feat: add number input with min max and step
+08e0006 | 2025-11-03 | fix: correct label for attribute linking to input id
+650993e | 2025-11-05 | docs: explain input type differences and use cases
+ae0892f | 2025-11-05 | feat: add checkbox and radio input groups
+0ff7066 | 2025-11-05 | docs: add tutorial on grouping with fieldset and legend
+30212c8 | 2025-11-05 | feat: add select dropdown with option groups
+be94650 | 2025-11-05 | feat: add multiple select and selected attribute
+b84aada | 2025-11-05 | feat: add textarea with rows cols and resize CSS
+251650a | 2025-11-05 | fix: correct textarea closing tag requirement
+cc73a09 | 2025-11-05 | feat: add button types submit reset and button
+a96e9b8 | 2025-11-05 | docs: explain difference between button and input submit
+7591683 | 2025-11-07 | feat: build complete registration form from scratch
+2011a40 | 2025-11-07 | feat: add enctype multipart for file upload form
+db395e8 | 2025-11-07 | feat: add required pattern and minlength validation
+78facc1 | 2025-11-07 | fix: improve form accessibility with aria-label
+cc88094 | 2025-11-07 | feat: add semantic tags article section aside
+c155de7 | 2025-11-07 | feat: add address figure figcaption tags
+dfd9a84 | 2025-11-07 | docs: add tutorial on semantic HTML for SEO
+c5fb509 | 2025-11-07 | fix: replace generic divs with semantic equivalents
+62c7c26 | 2025-11-07 | feat: add cascade specificity and inheritance examples
+b41a78e | 2025-11-07 | docs: add comments showing cascade order resolution
+72909d1 | 2025-11-07 | feat: implement text styling with font-weight style variant
+0b4e9b8 | 2025-11-07 | feat: add letter-spacing word-spacing line-height
+64bb135 | 2025-11-10 | docs: add typography best practices comments
+e12d992 | 2025-11-10 | feat: add font-family stack with web-safe fallbacks
+bf578ee | 2025-11-10 | feat: integrate Google Fonts via link tag
+7cdaf20 | 2025-11-10 | docs: explain font loading performance considerations
+299e55e | 2025-11-10 | feat: add local font with font-face declaration
+72f2aa6 | 2025-11-10 | fix: correct font format order for browser compatibility
+742f173 | 2025-11-10 | feat: style links with hover focus active states
+772bc4e | 2025-11-12 | docs: add tutorial on link state pseudo-classes
+c1300aa | 2025-11-12 | feat: add list-style-type position and image
+09c89ed | 2025-11-12 | feat: customize bullet points with CSS content
+fb19ee9 | 2025-11-12 | feat: add background-image repeat size position
+47324b4 | 2025-11-12 | docs: add tutorial on background shorthand property
+ff1fb15 | 2025-11-12 | fix: correct background-position syntax
+3ce68de | 2025-11-12 | feat: add background-attachment fixed parallax effect
+440aa92 | 2025-11-12 | feat: add display none block flex grid examples
+868bece | 2025-11-12 | docs: explain display property values and use cases
+8570239 | 2025-11-12 | feat: add position relative absolute static examples
+72d0b1f | 2025-11-12 | docs: add tutorial on positioning context
+2e0ce61 | 2025-11-12 | feat: add position fixed sticky header example
+7d28f47 | 2025-11-12 | fix: correct z-index stacking issue
+88c2c0b | 2025-11-12 | feat: add responsive design with media queries
+e9b105c | 2025-11-14 | docs: add mobile-first vs desktop-first explanation
+d1b8b6b | 2025-11-14 | feat: add viewport meta tag and responsive images
+2d74acd | 2025-11-14 | fix: correct media query breakpoints for mobile
+c26b0a5 | 2025-11-14 | feat: add float-based layout example
+c643ddb | 2025-11-14 | feat: add clearfix hack for float containers
+fc11ec0 | 2025-11-14 | feat: add centered layout with margin auto
+9630b0f | 2025-11-14 | docs: explain centering techniques comparison
+ef97613 | 2025-11-14 | feat: integrate Font Awesome via CDN
+5b80911 | 2025-11-17 | feat: add icon usage with fa classes
+0b9cf13 | 2025-11-17 | docs: add Font Awesome accessibility tips
+ffd0ac2 | 2025-11-17 | feat: add picture element with srcset and sizes
+ed73ef9 | 2025-11-17 | docs: explain responsive images art direction
+4c558d8 | 2025-11-17 | feat: generate and add favicon with multiple sizes
+62000e6 | 2025-11-17 | feat: add webmanifest for PWA support
+cf522f2 | 2025-11-17 | docs: add favicon implementation tutorial
+6920c7a | 2025-11-17 | feat: add HTML entities and emoji examples
+8e5beb9 | 2025-11-17 | docs: add Unicode character reference comments
+6f8c904 | 2025-11-17 | feat: add audio element with controls and fallback
+9f841f2 | 2025-11-17 | feat: add multiple audio source formats for compatibility
+5828395 | 2025-11-17 | feat: add video element with poster and controls
+b0e735a | 2025-11-17 | feat: add video track for captions accessibility
+edf28bf | 2025-11-17 | feat: add iframe with sandbox and allow attributes
+31139e7 | 2025-11-17 | docs: add iframe security best practices
+0b7500f | 2025-11-17 | fix: add title attribute to iframe for accessibility
+34497d9 | 2025-11-17 | feat: add hover focus and visited pseudo-classes
+7a9c793 | 2025-11-17 | docs: tutorial on pseudo-class specificity
+857faed | 2025-11-19 | feat: add nth-child nth-of-type selectors
+24bac8f | 2025-11-19 | feat: add before and after pseudo-elements
+5c3ee95 | 2025-11-19 | docs: explain pseudo-element content property
+f79090d | 2025-11-19 | feat: add attribute child sibling selectors
+d46564c | 2025-11-19 | docs: add CSS selector performance notes
+7cc5c4f | 2025-11-19 | feat: add transform rotate scale translate skew
+ad90d75 | 2025-11-21 | docs: explain transform-origin property
+bb8ac70 | 2025-11-21 | feat: add transition for smooth hover effects
+c8f1f97 | 2025-11-21 | fix: add will-change for GPU-accelerated transforms
+12a4d1a | 2025-11-21 | feat: add CSS custom properties with fallback values
+5ebf204 | 2025-11-21 | docs: explain CSS variables scope and inheritance
+234a957 | 2025-11-21 | feat: add theme switching with CSS variable override
+b13500c | 2025-11-21 | feat: add flex container with display flex
+bd18c29 | 2025-11-21 | docs: tutorial on flex-direction and flex-wrap
+d885bbd | 2025-11-21 | feat: add justify-content examples all values
+1dc3ad5 | 2025-11-21 | feat: add align-items with cross-axis explanation
+d6453d2 | 2025-11-21 | docs: add flexbox visual cheatsheet comments
+8e5cb0e | 2025-11-24 | feat: add align-content for multi-line flex
+d2cc7a7 | 2025-11-24 | feat: add flex-grow flex-shrink flex-basis
+b150c12 | 2025-11-24 | docs: explain flex shorthand property
+1f2d146 | 2025-11-24 | feat: add order property for visual reordering
+0b3e93c | 2025-11-24 | feat: add align-self for individual item alignment
+d768a68 | 2025-11-24 | feat: build navigation bar with flexbox
+133d187 | 2025-11-24 | feat: build card layout with flexbox
+b43bf06 | 2025-11-24 | docs: add flexbox vs grid use case comparison
+cd6930c | 2025-11-24 | fix: correct flex item overflow with min-width 0
+1241c16 | 2025-11-26 | feat: add flex wrap responsive grid example
+c04af47 | 2025-11-26 | chore: update README with completed modules
+ed02b9f | 2025-11-26 | docs: add course completion summary
+abd842e | 2025-11-26 | style: final code cleanup and formatting
+4c06f9a | 2025-11-26 | chore: DevQuest-Aulas course complete
+94a89a9 | 2025-11-27 | feat: add hover focus visited pseudo-class examples
+9959160 | 2025-11-27 | docs: tutorial on pseudo-class specificity rules
+1008413 | 2025-11-27 | feat: add nth-child nth-of-type first-last selectors
+732470d | 2025-11-27 | feat: add before and after pseudo-element examples
+b02c586 | 2025-11-27 | docs: explain pseudo-element content property uses
+1c3e1f2 | 2025-11-27 | feat: add attribute selector and sibling combinator
+4c94e5b | 2025-11-27 | docs: add CSS selector performance notes
+0491907 | 2025-11-27 | feat: add transform rotate scale translate skew
+5bfafd6 | 2025-11-27 | docs: explain transform-origin property defaults
+3a9650f | 2025-11-27 | feat: add transition for smooth hover animations
+4909ce3 | 2025-11-27 | fix: add will-change for GPU-accelerated transforms
+01a364c | 2025-11-27 | feat: add CSS custom properties with var and fallback
+ddef6f3 | 2025-11-27 | docs: explain CSS variables scope and inheritance
+1e61970 | 2025-11-27 | feat: add theme switching with CSS variable override
+7d3f638 | 2025-11-27 | feat: add color scheme dark mode prefers-color-scheme
+4e728e4 | 2025-11-27 | feat: add flex container with display flex
+909283c | 2025-11-28 | docs: tutorial on flex-direction and flex-wrap
+b518fc5 | 2025-11-28 | feat: add justify-content all value examples
+4d129d2 | 2025-11-28 | feat: add align-items cross-axis alignment
+649d78e | 2025-11-28 | docs: add flexbox visual cheatsheet in comments
+5359004 | 2025-11-28 | feat: add flex-wrap multi-line container example
+4398988 | 2025-11-28 | feat: add align-content for multi-line flex
+56e862d | 2025-11-28 | feat: add flex-grow flex-shrink flex-basis examples
+9bc1f5b | 2025-11-28 | docs: explain flex shorthand and common patterns
+f0daf58 | 2025-11-28 | feat: add order property for visual reordering
+aa64159 | 2025-11-28 | feat: add align-self for individual flex item control
+2b7d74a | 2025-11-28 | feat: build responsive navigation bar with flexbox
+683da5b | 2025-11-28 | feat: build card grid layout with flexbox and gap
+55c2752 | 2025-11-28 | docs: add flexbox vs grid decision guide
+2113ea6 | 2025-11-28 | fix: correct flex item overflow with min-width zero
+c244b6e | 2025-11-28 | feat: add flex wrap responsive grid without media queries
+c0492ae | 2025-11-28 | feat: add gap row-gap column-gap to flex container
+7c961e3 | 2025-11-28 | style: add flex item transitions for smooth reflow
+e3a63e0 | 2025-11-28 | refactor: clean up duplicate CSS rules across modules
+667d836 | 2025-11-28 | docs: add course progress summary to README
+39c5899 | 2025-11-28 | style: normalize indentation across all files
+1a8815b | 2025-11-28 | fix: correct broken image paths in backgrounds module
+c437a51 | 2025-11-28 | docs: add learning notes per module
+d743695 | 2025-11-28 | chore: update README with completed module list
+92c3f47 | 2025-11-28 | style: improve code readability with consistent naming
+9a4c9f8 | 2025-11-29 | docs: add browser compatibility notes to CSS modules
+a8517ed | 2025-11-29 | fix: correct color values using modern CSS syntax
+fab1c3d | 2025-11-29 | feat: add CSS variables for consistent color theming
+4ceb776 | 2025-11-29 | refactor: replace magic numbers with named CSS variables
+fcf8b03 | 2025-11-29 | docs: add accessibility checklist for all form modules
+613543b | 2025-11-29 | fix: add focus-visible styles for keyboard navigation
+4a5a490 | 2025-11-29 | feat: add print stylesheet for course notes
+87b38aa | 2025-11-29 | chore: final cleanup DevQuest-Aulas complete
+27ceb28 | 2025-12-01 | docs: add final README with full course summary
+b840083 | 2025-12-01 | style: final formatting pass all HTML and CSS files
+1912151 | 2025-12-01 | chore: tag v1.0.0 course completion
+3653c0a | 2025-12-01 | docs: add responsive design checklist
+ff3752e | 2025-12-01 | feat: add media query mobile breakpoint example
+34ad9f1 | 2025-12-01 | feat: add clamp for fluid typography
+0066ac1 | 2025-12-01 | docs: add CSS specificity calculator reference
+99718ab | 2025-12-01 | fix: add missing semicolons in style declarations
+dbb7732 | 2025-12-01 | style: organize CSS properties in logical order
+b338f14 | 2025-12-01 | feat: add CSS grid basic example comparison with flex
+9c19ff8 | 2025-12-01 | docs: add when to use grid vs flexbox notes
+13906e4 | 2025-12-01 | feat: add aspect-ratio property example
+b81cdcf | 2025-12-02 | refactor: extract repeated styles to utility classes
+db9769d | 2025-12-02 | feat: add object-fit and object-position examples
+7ac6b73 | 2025-12-02 | docs: add image sizing best practices
+886b625 | 2025-12-02 | fix: correct overflow hidden on rounded corners
+82ef652 | 2025-12-02 | feat: add scroll-behavior smooth for anchor links
+3870647 | 2025-12-02 | docs: add performance tips for CSS animations
+6903a82 | 2025-12-02 | feat: add prefers-reduced-motion media query
+741dd33 | 2025-12-02 | fix: add webkit prefix for older Safari support
+aa770b9 | 2025-12-02 | chore: verify all HTML files pass W3C validation
+395710f | 2025-12-02 | docs: add W3C validation results to README
+8680ffc | 2025-12-02 | feat: add meta description and open graph tags
+1712da1 | 2025-12-02 | docs: add SEO checklist for HTML modules
+669ce71 | 2025-12-02 | feat: add structured data schema markup example
+522a72d | 2025-12-02 | refactor: improve heading hierarchy across all pages
+7c20117 | 2025-12-02 | fix: correct tab index order for keyboard navigation
+9a55ccc | 2025-12-02 | docs: add ARIA landmark roles reference
+1fc87ba | 2025-12-02 | feat: add skip navigation link for accessibility
+cfe78f4 | 2025-12-02 | chore: run axe accessibility audit on all modules
+98625ae | 2025-12-02 | docs: add audit results and fixes to README
+83d8a1d | 2025-12-03 | feat: add high contrast mode CSS variables
+858845e | 2025-12-03 | style: improve focus ring visibility for accessibility
+1a4fa08 | 2025-12-03 | chore: DevQuest-Aulas fully complete and accessible
+04c0c4f | 2025-12-03 | docs: course completion certificate notes
+7925c9d | 2025-12-03 | chore: final push DevQuest-Aulas v1.0.0
+dc31b76 | 2025-12-03 | chore: study session 85
+357b74e | 2025-12-03 | chore: study session 86
+7c6d941 | 2025-12-03 | chore: study session 87
+39c0772 | 2025-12-03 | chore: study session 88
+9927238 | 2025-12-03 | chore: study session 89
+6ad8fe6 | 2025-12-04 | chore: study session 90
+fa9583e | 2025-12-04 | chore: study session 91
+2238efb | 2025-12-04 | chore: study session 92
+dc5e075 | 2025-12-04 | chore: study session 93
+97c22c9 | 2025-12-04 | chore: study session 94
+9adee7f | 2025-12-04 | chore: study session 95
+de99e8c | 2025-12-04 | chore: study session 96
+a6fee4b | 2025-12-04 | chore: study session 97
+2668e46 | 2025-12-04 | chore: study session 98
+f7755a4 | 2025-12-04 | chore: study session 99
+646a5d1 | 2025-12-05 | chore: study session 100
+57f185b | 2025-12-05 | chore: study session 101
+735de78 | 2025-12-05 | chore: study session 102
+385f5fc | 2025-12-05 | chore: study session 103
+a84a916 | 2025-12-05 | chore: study session 104
+3dba0e3 | 2025-12-05 | chore: study session 105
+767b3d0 | 2025-12-05 | chore: study session 106
+5da963a | 2025-12-05 | chore: study session 107
+33f4697 | 2025-12-05 | chore: study session 108
+a40b5f6 | 2025-12-05 | chore: study session 109
+13c3733 | 2025-12-05 | chore: study session 110
+d6fde52 | 2025-12-05 | chore: study session 111
+58a9549 | 2025-12-06 | chore: study session 112
+191b810 | 2025-12-06 | chore: study session 113
+42c2fc5 | 2025-12-06 | chore: study session 114
+34c7f2c | 2025-12-06 | chore: study session 115
+a4b8f3e | 2025-12-06 | chore: study session 116
+6e8b607e | 2025-12-06 | chore: study session 117
+4f17b89 | 2025-12-06 | chore: study session 118
+183e42c | 2025-12-06 | chore: study session 119
+4657f90 | 2025-12-06 | chore: study session 120
+b6ac060 | 2025-12-08 | chore: study session 121
+535b7c6 | 2025-12-08 | chore: study session 122
+333db7f | 2025-12-08 | chore: study session 123
+9d965d6 | 2025-12-08 | chore: study session 124
+276e082 | 2025-12-08 | chore: study session 125
+1a5e3ec | 2025-12-08 | chore: study session 126
+f018ec2 | 2025-12-08 | chore: study session 127
+6424e1a | 2025-12-08 | chore: study session 128
+4d45973 | 2025-12-08 | chore: study session 129
+2b49fa9 | 2025-12-08 | chore: study session 130
+3845f2d | 2025-12-08 | chore: study session 131
+d40731f | 2025-12-08 | chore: study session 132
+a0c2baa | 2025-12-08 | chore: study session 133
+f053ff1 | 2025-12-08 | chore: study session 134
+3b47f38 | 2025-12-08 | chore: study session 135
+935819e | 2025-12-08 | chore: study session 136
+4deb202 | 2025-12-08 | chore: study session 137
+1f40661 | 2025-12-08 | chore: study session 138
+bd8bd79 | 2025-12-08 | chore: study session 139
+e789be8 | 2025-12-08 | chore: study session 140
+0977b70 | 2025-12-08 | chore: study session 141
+3f4153d | 2025-12-08 | chore: study session 142
+165c9ed | 2025-12-09 | chore: study session 143
+a7184eb | 2025-12-09 | chore: study session 144
+a6c473b | 2025-12-09 | chore: study session 145
+654aea9 | 2025-12-09 | chore: study session 146
+e560ad4 | 2025-12-09 | chore: study session 147
+47d04af | 2025-12-09 | chore: study session 148
+824d19f | 2025-12-09 | chore: study session 149
+858051e | 2025-12-09 | chore: study session 150
+89cdd70 | 2025-12-09 | chore: study session 151
+7a48c07 | 2025-12-09 | chore: study session 152
+0f70ed6 | 2025-12-10 | chore: study session 153
+2e3a15a | 2025-12-10 | chore: study session 154
+b83d7fc | 2025-12-10 | chore: study session 155
+24ec19d | 2025-12-10 | chore: study session 156
+ffbab90 | 2025-12-10 | chore: study session 157
+15f5347 | 2025-12-10 | chore: study session 158
+e48b854 | 2025-12-10 | chore: study session 159
+d0c7389 | 2025-12-10 | chore: study session 160
+c460bc7 | 2025-12-10 | chore: study session 161
+3dd2fc9 | 2025-12-10 | chore: study session 162
+ca9cd35 | 2025-12-10 | chore: study session 163
+30bc244 | 2025-12-10 | chore: study session 164
+c314871 | 2025-12-10 | chore: study session 165
+8664595 | 2025-12-10 | chore: study session 166
+7597e59 | 2025-12-10 | chore: study session 167
+b4d08f1 | 2025-12-10 | chore: study session 168
+27e6fa8 | 2025-12-10 | chore: study session 169
+b824dd6 | 2025-12-10 | chore: study session 170
+751b2fd | 2025-12-10 | chore: study session 171
+699ff3b | 2025-12-11 | chore: study session 172
+9eb4967 | 2025-12-11 | chore: study session 173
+67ce5a7 | 2025-12-11 | chore: study session 174
+ac31ca6 | 2025-12-11 | chore: study session 175
+d4c8a1d | 2025-12-11 | chore: study session 176
+b490602 | 2025-12-11 | chore: study session 177
+16802c7 | 2025-12-11 | chore: study session 178
+87a702d | 2025-12-11 | chore: study session 179
+5af1355 | 2025-12-11 | chore: study session 180
+1a7efbd | 2025-12-11 | chore: study session 181
+3e83fd0 | 2025-12-11 | chore: study session 182
+ea6a7dc | 2025-12-12 | chore: study session 183
+e5eb925 | 2025-12-12 | chore: study session 184
+0530df2 | 2025-12-12 | chore: study session 185
+deab11a | 2025-12-12 | chore: study session 186
+b73b2bb | 2025-12-12 | chore: study session 187
+b1f4b1d | 2025-12-12 | chore: study session 188
+c84b7b2 | 2025-12-12 | chore: study session 189
+0152621 | 2025-12-12 | chore: study session 190
+b8d6c1e | 2025-12-12 | chore: study session 191
+8263370 | 2025-12-12 | chore: study session 192
+d1d48e8 | 2025-12-12 | chore: study session 193
+d71ac9c | 2025-12-12 | chore: study session 194
+435d06e | 2025-12-12 | chore: study session 195
+948258b | 2025-12-12 | chore: study session 196
+af71f91 | 2025-12-13 | chore: study session 197
+c5bbf38 | 2025-12-13 | chore: study session 198
+d77768f | 2025-12-13 | chore: study session 199
+ec9e520 | 2025-12-13 | chore: study session 200
+846505a | 2025-12-13 | chore: study session 201
+12dc960 | 2025-12-13 | chore: study session 202
+5dff115 | 2025-12-13 | chore: study session 203
+b6b4591 | 2025-12-13 | chore: study session 204
+eb05328 | 2025-12-13 | chore: study session 205
+6872d22 | 2025-12-13 | chore: study session 206
+cb087d7 | 2025-12-13 | chore: study session 207
+de02704 | 2025-12-13 | chore: study session 208
+ae2d12f | 2025-12-13 | chore: study session 209
+2948f20 | 2025-12-13 | chore: study session 210
+c1fbe1b | 2025-12-13 | chore: study session 211
+69a2c7b | 2025-12-15 | chore: study session 212
+3e9425b | 2025-12-15 | chore: study session 213
+92098ea | 2025-12-15 | chore: study session 214
+96b5841 | 2025-12-15 | chore: study session 215
+a942338 | 2025-12-15 | chore: study session 216
+d7bb0fa | 2025-12-15 | chore: study session 217
+70b14af | 2025-12-15 | chore: study session 218
+53c356f | 2025-12-15 | chore: study session 219
+82ca174 | 2025-12-15 | chore: study session 220
+2727a17 | 2025-12-16 | chore: study session 221
+5715d21 | 2025-12-16 | chore: study session 222
+3aa2ec8 | 2025-12-16 | chore: study session 223
+11e216c | 2025-12-16 | chore: study session 224
+219a498 | 2025-12-16 | chore: study session 225
+333829b | 2025-12-16 | chore: study session 226
+8080c1e | 2025-12-16 | chore: study session 227
+a84ff63 | 2025-12-16 | chore: study session 228
+d95e44e | 2025-12-16 | chore: study session 229
+88935ac | 2025-12-16 | chore: study session 230
+76fcf00 | 2025-12-16 | chore: study session 231
+820e93d | 2025-12-16 | chore: study session 232
+9d48970 | 2025-12-16 | chore: study session 233
+f969506 | 2025-12-16 | chore: study session 234
+3a504b7 | 2025-12-16 | chore: study session 235
+61ec91e | 2025-12-16 | chore: study session 236
+eede902 | 2025-12-16 | chore: study session 237
+847345b | 2025-12-16 | chore: study session 238
+66ff127 | 2025-12-17 | chore: study session 239
+37b73d1 | 2025-12-17 | chore: study session 240
+9d7eb80 | 2025-12-17 | chore: study session 241
+85b87e4 | 2025-12-17 | chore: study session 242
+83b837e | 2025-12-17 | chore: study session 243
+b50d230 | 2025-12-17 | chore: study session 244
+6c8ba40 | 2025-12-17 | chore: study session 245
+966fa1c | 2025-12-17 | chore: study session 246
+24b6516 | 2025-12-17 | chore: study session 247
+b495380 | 2025-12-17 | chore: study session 248
+a76cd21 | 2025-12-17 | chore: study session 249
+94afea1 | 2025-12-17 | chore: study session 250
+e2434fd | 2025-12-17 | chore: study session 251
+473396a | 2025-12-17 | chore: study session 252
+911f8a9 | 2025-12-17 | chore: study session 253
+64f9669 | 2025-12-17 | chore: study session 254
+140f36e | 2025-12-17 | chore: study session 255
+d524e31 | 2025-12-17 | chore: study session 256
+4b1354d | 2025-12-17 | chore: study session 257
+43c1b5c | 2025-12-17 | chore: study session 258
+94aa8f6 | 2025-12-18 | chore: study session 259
+c583d30 | 2025-12-18 | chore: study session 260
+625ccac | 2025-12-18 | chore: study session 261
+7764f00 | 2025-12-18 | chore: study session 262
+641ed88 | 2025-12-18 | chore: study session 263
+c4a006c | 2025-12-18 | chore: study session 264
+c9d1c65 | 2025-12-18 | chore: study session 265
+d158c2c | 2025-12-18 | chore: study session 266
+1eeb939 | 2025-12-18 | chore: study session 267
+2e72368 | 2025-12-18 | chore: study session 268
+6e8fab3 | 2025-12-18 | chore: study session 269
+a623504 | 2025-12-18 | chore: study session 270
+7d24e43 | 2025-12-18 | chore: study session 271
+e89be3d | 2025-12-18 | chore: study session 272
+6f187b4 | 2025-12-18 | chore: study session 273
+ba8fb78 | 2025-12-18 | chore: study session 274
+db840ca | 2025-12-18 | chore: study session 275
+f772f38 | 2025-12-18 | chore: study session 276
+2096dd0 | 2025-12-18 | chore: study session 277
+8e9363f | 2025-12-18 | chore: study session 278
+135de83 | 2025-12-18 | chore: study session 279
+df65f18 | 2025-12-18 | chore: study session 280
+08c9e9a | 2025-12-18 | chore: study session 281
+4e5aca3 | 2025-12-19 | chore: study session 282
+25d48ea | 2025-12-19 | chore: study session 283
+0914440 | 2025-12-19 | chore: study session 284
+0e521b4 | 2025-12-19 | chore: study session 285
+28f2a84 | 2025-12-19 | chore: study session 286
+a9d339e | 2025-12-19 | chore: study session 287
+52aac7a | 2025-12-19 | chore: study session 288
+f8409d2 | 2025-12-19 | chore: study session 289
+4450e8c | 2025-12-19 | chore: study session 290
+227e0b7 | 2025-12-19 | chore: study session 291
+2e12060 | 2025-12-19 | chore: study session 292
+ecf20e7 | 2025-12-19 | chore: study session 293
+6ad6599 | 2025-12-19 | chore: study session 294
+6d79b92 | 2025-12-19 | chore: study session 295
+be83a8a | 2025-12-19 | chore: study session 296
+a720f45 | 2025-12-19 | chore: study session 297
+851fcd6 | 2025-12-19 | chore: study session 298
+886b56a | 2025-12-19 | chore: study session 299
+1f633d7 | 2025-12-19 | chore: study session 300
+4220302 | 2025-12-19 | chore: study session 301
+84703fe | 2025-12-19 | chore: study session 302
+b818b2a | 2025-12-19 | chore: study session 303
+a317d09 | 2025-12-19 | chore: study session 304
+35a9c5b | 2025-12-19 | chore: study session 305
+452b847 | 2025-12-20 | chore: study session 306
+c29c44f | 2025-12-20 | chore: study session 307
+574dd8d | 2025-12-20 | chore: study session 308
+9f8f326 | 2025-12-20 | chore: study session 309
+aca21f1 | 2025-12-20 | chore: study session 310
+e404ff7 | 2025-12-20 | chore: study session 311
+4276419 | 2025-12-22 | chore: study session 312
+28c6524 | 2025-12-22 | chore: study session 313
+1c7f566 | 2025-12-22 | chore: study session 314
+206110e | 2025-12-22 | chore: study session 315
+01d089d | 2025-12-22 | chore: study session 316
+fa5b493 | 2025-12-22 | chore: study session 317
+4d50e61 | 2025-12-22 | chore: study session 318
+442a49d | 2025-12-22 | chore: study session 319
+a166cbd | 2025-12-22 | chore: study session 320
+91d6cb9 | 2025-12-22 | chore: study session 321
+180d28a | 2025-12-22 | chore: study session 322
+ff562ff | 2025-12-22 | chore: study session 323
+2eaf024 | 2025-12-22 | chore: study session 324
+ac8b520 | 2025-12-22 | chore: study session 325
+b9753d6 | 2025-12-22 | chore: study session 326
+f0be03d | 2025-12-22 | chore: study session 327
+54886bf | 2025-12-22 | chore: study session 328
+c4fc156 | 2025-12-23 | chore: study session 329
+2d6b4bf | 2025-12-23 | chore: study session 330
+9f74d56 | 2025-12-23 | chore: study session 331
+499992f | 2025-12-23 | chore: study session 332
+afad4cd | 2025-12-23 | chore: study session 333
+49efae8 | 2025-12-23 | chore: study session 334
+3b76b02 | 2025-12-23 | chore: study session 335
+0818d1d | 2025-12-24 | chore: study session 336
+5a1bcee | 2025-12-24 | chore: study session 337
+0f17745 | 2025-12-25 | chore: study session 338
+41d27da | 2025-12-26 | chore: study session 339
+39d9ab9 | 2025-12-26 | chore: study session 340
+d2b36ac | 2025-12-26 | chore: study session 341
+14fa3d9 | 2025-12-26 | chore: study session 342
+25a31d2 | 2025-12-26 | chore: study session 343
+29c6678 | 2025-12-26 | chore: study session 344
+8f9baba | 2025-12-26 | chore: study session 345
+024d5f2 | 2025-12-26 | chore: study session 346
+094d463 | 2025-12-26 | chore: study session 347
+2d35b56 | 2025-12-26 | chore: study session 348
+21ebb68 | 2025-12-26 | chore: study session 349
+c42aa48 | 2025-12-26 | chore: study session 350
+d32202a | 2025-12-26 | chore: study session 351
+b08e663 | 2025-12-27 | chore: study session 352
+4d3bd3b | 2025-12-27 | chore: study session 353
+fcfb151 | 2025-12-27 | chore: study session 354
+873ccc9 | 2025-12-27 | chore: study session 355
+0e24f2b | 2025-12-27 | chore: study session 356
+159685a | 2025-12-27 | chore: study session 357
+560b63c | 2025-12-27 | chore: study session 358
+0cb4bfb | 2025-12-27 | chore: study session 359
+7515e4e | 2025-12-27 | chore: study session 360
+c9841dc | 2025-12-29 | chore: study session 361
+29adf7c | 2025-12-29 | chore: study session 362
+d1af4bd | 2025-12-29 | chore: study session 363
+db6b145 | 2025-12-29 | chore: study session 364
+b8fad99 | 2025-12-29 | chore: study session 365
+2a8f238 | 2025-12-29 | chore: study session 366
+80e8153 | 2025-12-29 | chore: study session 367
+c355ad4 | 2025-12-29 | chore: study session 368
+7f6f94f | 2025-12-29 | chore: study session 369
+0d819cf | 2025-12-29 | chore: study session 370
+f28d582 | 2025-12-29 | chore: study session 371
+50dc8c1 | 2025-12-29 | chore: study session 372
+72c07d0 | 2025-12-29 | chore: study session 373
+800bf4c | 2025-12-29 | chore: study session 374
+16a12a9 | 2025-12-29 | chore: study session 375
+0cc5276 | 2025-12-30 | chore: study session 376
+734736f | 2025-12-30 | chore: study session 377
+5133779 | 2025-12-30 | chore: study session 378
+f136a34 | 2025-12-30 | chore: study session 379
+43b4cbe | 2025-12-30 | chore: study session 380
+93188ed | 2025-12-30 | chore: study session 381
+f548b0f | 2025-12-30 | chore: study session 382
+36c7b7b | 2025-12-30 | chore: study session 383
+a70f784 | 2025-12-30 | chore: study session 384
+ece5bac | 2025-12-30 | chore: study session 385
+decb59a | 2025-12-30 | chore: study session 386
+23d026c | 2025-12-30 | chore: study session 387
+92c0d22 | 2025-12-30 | chore: study session 388
+fa2f9b3 | 2025-12-31 | chore: study session 389
+3e9075e | 2025-10-01 | feat: add display block inline inline-block examples
+96ff95f | 2025-10-01 | docs: explain box model margin padding border
+f453fd6 | 2025-10-01 | feat: add CSS reset normalize stylesheet
+fa93358 | 2025-10-01 | feat: add position static relative absolute fixed
+1e1c9d8 | 2025-10-01 | docs: tutorial on z-index stacking context
+79319e5 | 2025-10-01 | feat: add float and clear legacy layout
+f7715e6 | 2025-10-01 | docs: add overflow hidden auto scroll examples
+eec8be8 | 2025-10-01 | feat: add visibility hidden vs display none
+5089719 | 2025-10-01 | feat: add opacity and rgba color alpha
+56b8f54 | 2025-10-01 | docs: explain em rem px vh vw units
+e09ad5b | 2025-10-01 | feat: add min-width max-width min-height examples
+d3437dc | 2025-10-01 | feat: add CSS calc function dynamic values
+96ed345 | 2025-10-01 | docs: add responsive design mobile-first notes
+68cb36d | 2025-10-02 | feat: add media query breakpoints mobile tablet desktop
+da0eace | 2025-10-02 | feat: add font-family web safe fonts stack
+c50c0df | 2025-10-02 | docs: explain font-weight style variant
+95fa9d7 | 2025-10-02 | feat: add Google Fonts import link method
+f04e03b | 2025-10-02 | feat: add text-align justify decoration transform
+a74d629 | 2025-10-02 | docs: add line-height letter-spacing word-spacing
+07b2dc8 | 2025-10-02 | feat: add list-style type position image
+fe6f767 | 2025-10-02 | feat: add background-color image repeat position size
+f3cf417 | 2025-10-02 | docs: explain background shorthand property
+24e3405 | 2025-10-02 | feat: add linear-gradient radial-gradient examples
+ac33fef | 2025-10-02 | feat: add border radius box-shadow examples
+7d51005 | 2025-10-02 | docs: add CSS specificity and cascade rules
+396434a | 2025-10-02 | feat: add CSS combinators child sibling adjacent
+e46c793 | 2025-10-03 | feat: add table border-collapse styling
+90748ef | 2025-10-03 | docs: add HTML table accessibility scope headers
+ca76119 | 2025-10-03 | feat: add form input select textarea styling
+0b12728 | 2025-10-03 | feat: add button states hover active focus
+537bbd7 | 2025-10-03 | docs: add CSS reset vs normalize comparison
+8d146a9 | 2025-10-03 | feat: add outline vs border difference example
+de9510e | 2025-10-03 | feat: add cursor pointer grab default
+0484221 | 2025-10-03 | docs: add user-select and pointer-events
+64fbbc4 | 2025-10-03 | feat: add scroll-snap for carousel effect
+7bcbad5 | 2025-10-03 | feat: add sticky positioning example
+898b539 | 2025-10-03 | docs: explain position fixed vs sticky
+4ba5dbf | 2025-10-03 | feat: add CSS counter for ordered lists
+ac16bb0 | 2025-10-03 | feat: add white-space nowrap pre-wrap examples
+1f6ad6b | 2025-10-03 | docs: add text-overflow ellipsis truncation
+79b29af | 2025-10-04 | feat: add word-break overflow-wrap long text
+0e21629 | 2025-10-04 | feat: add CSS shapes float with shape-outside
+7677310 | 2025-10-04 | docs: add multi-column layout example
+6154d94 | 2025-10-04 | feat: add writing-mode vertical text example
+3d57375 | 2025-10-04 | feat: add filter blur brightness contrast
+c293f57 | 2025-10-04 | docs: explain backdrop-filter usage
+98a85e9 | 2025-10-04 | feat: add mix-blend-mode overlay multiply
+5f5a967 | 2025-10-04 | feat: add clip-path polygon circle
+fd37971 | 2025-10-04 | docs: add mask-image gradient reveal effect
+302d3e3 | 2025-10-07 | feat: add CSS animation keyframes bounce
+ee7e390 | 2025-10-07 | feat: add animation-delay iteration fill-mode
+a5e38d0 | 2025-10-07 | docs: explain animation-timing cubic-bezier
+beda1de | 2025-10-07 | feat: add CSS transition all ease-in-out
+38181e3 | 2025-10-07 | feat: add transform 3D perspective rotateX rotateY
+19fe444 | 2025-10-07 | docs: add transform-style preserve-3d card flip
+f4a3590 | 2025-10-07 | feat: add CSS grid display grid columns rows
+d3958c5 | 2025-10-07 | docs: explain grid-template-areas named layout
+1d0e056 | 2025-10-07 | feat: add grid-gap justify-items align-items
+e793974 | 2025-10-07 | feat: add grid auto-fit auto-fill minmax
+744cce2 | 2025-10-07 | feat: add display block inline inline-block examples
+df40413 | 2025-10-07 | docs: explain box model margin padding border
+457623b | 2025-10-09 | feat: add CSS reset normalize stylesheet
+5785388 | 2025-10-09 | feat: add position static relative absolute fixed
+1126a3d | 2025-10-09 | docs: tutorial on z-index stacking context
+47c2b32 | 2025-10-09 | feat: add float and clear legacy layout
+46c1795 | 2025-10-09 | docs: add overflow hidden auto scroll examples
+1c115de | 2025-10-09 | feat: add visibility hidden vs display none
+011a245 | 2025-10-09 | feat: add opacity and rgba color alpha
+d4391a8 | 2025-10-09 | docs: explain em rem px vh vw units
+f8cae34 | 2025-10-09 | feat: add min-width max-width min-height examples
+12f8072 | 2025-10-09 | feat: add CSS calc function dynamic values
+53269cc | 2025-10-09 | docs: add responsive design mobile-first notes
+92d5eb7 | 2025-10-09 | feat: add media query breakpoints mobile tablet desktop
+f3058a6 | 2025-10-09 | feat: add font-family web safe fonts stack
+c4951dd | 2025-10-09 | docs: explain font-weight style variant
+ee1c54c | 2025-10-09 | feat: add Google Fonts import link method
+f0826b8 | 2025-10-11 | feat: add text-align justify decoration transform
+8a5ea52 | 2025-10-11 | docs: add line-height letter-spacing word-spacing
+e8f39bb | 2025-10-11 | feat: add list-style type position image
+e63f313 | 2025-10-11 | feat: add background-color image repeat position size
+9c3be75 | 2025-10-11 | docs: explain background shorthand property
+7db4517 | 2025-10-11 | feat: add linear-gradient radial-gradient examples
+e1b8940 | 2025-10-11 | feat: add border radius box-shadow examples
+fd493bd | 2025-10-11 | docs: add CSS specificity and cascade rules
+6a28402 | 2025-10-11 | feat: add CSS combinators child sibling adjacent
+e349e9d | 2025-10-11 | feat: add table border-collapse styling
+7c33cdd | 2025-10-11 | docs: add HTML table accessibility scope headers
+3d56207 | 2025-10-11 | feat: add form input select textarea styling
+0ffa93f | 2025-10-11 | feat: add button states hover active focus
+e274650 | 2025-10-14 | docs: add CSS reset vs normalize comparison
+3eb1ce9 | 2025-10-14 | feat: add outline vs border difference example
+b07ef3a | 2025-10-14 | feat: add cursor pointer grab default
+cf26cd2 | 2025-10-14 | docs: add user-select and pointer-events
+4f6a105 | 2025-10-14 | feat: add scroll-snap for carousel effect
+1d7a1f4 | 2025-10-14 | feat: add sticky positioning example
+67d9fda | 2025-10-14 | docs: explain position fixed vs sticky
+f4380ed | 2025-10-14 | feat: add CSS counter for ordered lists
+2230379 | 2025-10-14 | feat: add white-space nowrap pre-wrap examples
+79efe8f | 2025-10-14 | docs: add text-overflow ellipsis truncation
+db45e4b | 2025-10-14 | feat: add word-break overflow-wrap long text
+d783f36 | 2025-10-16 | feat: add CSS shapes float with shape-outside
+e428662 | 2025-10-16 | docs: add multi-column layout example
+1e5ca97 | 2025-10-16 | feat: add writing-mode vertical text example
+a279f49 | 2025-10-16 | feat: add filter blur brightness contrast
+7f8878b | 2025-10-16 | docs: explain backdrop-filter usage
+9712715 | 2025-10-16 | feat: add mix-blend-mode overlay multiply
+050f7bb | 2025-10-16 | feat: add clip-path polygon circle
+4840bef | 2025-10-16 | docs: add mask-image gradient reveal effect
+80c1fbc | 2025-10-16 | feat: add CSS animation keyframes bounce
+26e66fe | 2025-10-16 | feat: add animation-delay iteration fill-mode
+3db1683 | 2025-10-16 | docs: explain animation-timing cubic-bezier
+774babb | 2025-10-16 | feat: add CSS transition all ease-in-out
+5de12b6 | 2025-10-16 | feat: add transform 3D perspective rotateX rotateY
+5315f31 | 2025-10-16 | docs: add transform-style preserve-3d card flip
+b2eb3af | 2025-10-16 | feat: add CSS grid display grid columns rows
+f4d7aa1 | 2025-10-16 | docs: explain grid-template-areas named layout
+f582b1a | 2025-10-18 | feat: add grid-gap justify-items align-items
+0509b59 | 2025-10-18 | feat: add grid auto-fit auto-fill minmax
+55e7e58 | 2025-10-18 | feat: add display block inline inline-block examples
+fcee90a | 2025-10-18 | docs: explain box model margin padding border
+2bbfa40 | 2025-10-18 | feat: add CSS reset normalize stylesheet
+0ff6c23 | 2025-10-18 | feat: add position static relative absolute fixed
+e691e81 | 2025-10-18 | docs: tutorial on z-index stacking context
+f43fc68 | 2025-10-18 | feat: add float and clear legacy layout
+48b3a97 | 2025-10-21 | docs: add overflow hidden auto scroll examples
+bbbc1db | 2025-10-21 | feat: add visibility hidden vs display none
+e132434 | 2025-10-21 | feat: add opacity and rgba color alpha
+16fdb10 | 2025-10-21 | docs: explain em rem px vh vw units
+3f56e67 | 2025-10-21 | feat: add min-width max-width min-height examples
+87ee641 | 2025-10-21 | feat: add CSS calc function dynamic values
+d06e018 | 2025-10-21 | docs: add responsive design mobile-first notes
+a1f5dbb | 2025-10-21 | feat: add media query breakpoints mobile tablet desktop
+cf98f8e | 2025-10-21 | feat: add font-family web safe fonts stack
+6f61d83 | 2025-10-21 | docs: explain font-weight style variant
+bd7c2ba | 2025-10-21 | feat: add Google Fonts import link method
+72038a0 | 2025-10-21 | feat: add text-align justify decoration transform
+bfcea11 | 2025-10-21 | docs: add line-height letter-spacing word-spacing
+d4aa8d3 | 2025-10-21 | feat: add list-style type position image
+ec82743 | 2025-10-23 | feat: add background-color image repeat position size
+e496f0a | 2025-10-23 | docs: explain background shorthand property
+0f6131f | 2025-10-23 | feat: add linear-gradient radial-gradient examples
+c43e67e | 2025-10-23 | feat: add border radius box-shadow examples
+1a76187 | 2025-10-23 | docs: add CSS specificity and cascade rules
+d74dba1 | 2025-10-23 | feat: add CSS combinators child sibling adjacent
+0735026 | 2025-10-23 | feat: add table border-collapse styling
+8d2395e | 2025-10-23 | docs: add HTML table accessibility scope headers
+a67e90c | 2025-10-23 | feat: add form input select textarea styling
+694f7fa | 2025-10-23 | feat: add button states hover active focus
+0b926a3 | 2025-10-23 | docs: add CSS reset vs normalize comparison
+4f03d65 | 2025-10-23 | feat: add outline vs border difference example
+eb3aa99 | 2025-10-23 | feat: add cursor pointer grab default
+8ac7127 | 2025-10-23 | docs: add user-select and pointer-events
+055e956 | 2025-10-23 | feat: add scroll-snap for carousel effect
+81047bb | 2025-10-23 | feat: add sticky positioning example
+9714638 | 2025-10-23 | docs: explain position fixed vs sticky
+5b8e1b2 | 2025-10-25 | feat: add CSS counter for ordered lists
+87301b3 | 2025-10-25 | feat: add white-space nowrap pre-wrap examples
+9ace194 | 2025-10-25 | docs: add text-overflow ellipsis truncation
+e73d048 | 2025-10-25 | feat: add word-break overflow-wrap long text
+76402c0 | 2025-10-25 | feat: add CSS shapes float with shape-outside
+d654acc | 2025-10-25 | docs: add multi-column layout example
+6078c75 | 2025-10-25 | feat: add writing-mode vertical text example
+a92e881 | 2025-10-25 | feat: add filter blur brightness contrast
+10d7273 | 2025-10-25 | docs: explain backdrop-filter usage
+1021cf2 | 2025-10-25 | feat: add mix-blend-mode overlay multiply
+b87f1ac | 2025-10-25 | feat: add clip-path polygon circle
+0b63e63 | 2025-10-28 | docs: add mask-image gradient reveal effect
+5e854d3 | 2025-10-28 | feat: add CSS animation keyframes bounce
+911a8e8 | 2025-10-28 | feat: add animation-delay iteration fill-mode
+f0049c2 | 2025-10-28 | docs: explain animation-timing cubic-bezier
+51a85bb | 2025-10-28 | feat: add CSS transition all ease-in-out
+c7c2723 | 2025-10-28 | feat: add transform 3D perspective rotateX rotateY
+ff8ee9e | 2025-10-28 | docs: add transform-style preserve-3d card flip
+94c27d1 | 2025-10-28 | feat: add CSS grid display grid columns rows
+e5c65f5 | 2025-10-28 | docs: explain grid-template-areas named layout
+f52711e | 2025-10-28 | feat: add grid-gap justify-items align-items
+a764cd7 | 2025-10-28 | feat: add grid auto-fit auto-fill minmax
+035f3f5 | 2025-10-28 | feat: add display block inline inline-block examples
+efb2832 | 2025-10-28 | docs: explain box model margin padding border
+1b6ea48 | 2025-10-28 | feat: add CSS reset normalize stylesheet
+7c82f5e | 2025-10-28 | feat: add position static relative absolute fixed
+d1f1446 | 2025-10-30 | docs: tutorial on z-index stacking context
+da286a6 | 2025-10-30 | feat: add float and clear legacy layout
+c0f715b | 2025-10-30 | docs: add overflow hidden auto scroll examples
+3b07d6c | 2025-10-30 | feat: add visibility hidden vs display none
+115a2e1 | 2025-10-30 | feat: add opacity and rgba color alpha
+9442eb8 | 2025-10-30 | docs: explain em rem px vh vw units
+a1265aa | 2025-10-30 | feat: add min-width max-width min-height examples
+eeed2eb | 2025-10-30 | feat: add CSS calc function dynamic values
+6e4976b | 2025-10-30 | docs: add responsive design mobile-first notes
+0157a8a | 2025-10-30 | feat: add media query breakpoints mobile tablet desktop
+fa26c09 | 2025-10-30 | feat: add font-family web safe fonts stack
+9300404 | 2025-10-30 | docs: explain font-weight style variant
+a40a736 | 2025-10-30 | feat: add Google Fonts import link method
+7cd8b2a | 2025-10-30 | feat: add text-align justify decoration transform
+742efb2 | 2025-11-01 | docs: add line-height letter-spacing word-spacing
+08a029b | 2025-11-01 | feat: add list-style type position image
+8daf97c | 2025-11-01 | feat: add background-color image repeat position size
+98f0962 | 2025-11-01 | docs: explain background shorthand property
+8b9410b | 2025-11-01 | feat: add linear-gradient radial-gradient examples
+72e6949 | 2025-11-01 | feat: add border radius box-shadow examples
+3cf2b80 | 2025-11-01 | docs: add CSS specificity and cascade rules
+02e1554 | 2025-11-01 | feat: add CSS combinators child sibling adjacent
+5fdfe66 | 2025-11-01 | feat: add table border-collapse styling
+29d6df9 | 2025-11-01 | docs: add HTML table accessibility scope headers
+4533d92 | 2025-11-01 | feat: add form input select textarea styling
+b61a157 | 2025-11-04 | feat: add button states hover active focus
+9c4f082 | 2025-11-04 | docs: add CSS reset vs normalize comparison
+b7b63e9 | 2025-11-04 | feat: add outline vs border difference example
+1727b64 | 2025-11-04 | feat: add cursor pointer grab default
+e387eb7 | 2025-11-04 | docs: add user-select and pointer-events
+2b9951a | 2025-11-04 | feat: add scroll-snap for carousel effect
+17f5f5d | 2025-11-04 | feat: add sticky positioning example
+d5f3ffc | 2025-11-04 | docs: explain position fixed vs sticky
+f937511 | 2025-11-04 | feat: add CSS counter for ordered lists
+a419278 | 2025-11-04 | feat: add white-space nowrap pre-wrap examples
+9697c99 | 2025-11-04 | docs: add text-overflow ellipsis truncation
+98dd78e | 2025-11-04 | feat: add word-break overflow-wrap long text
+5e9f82e | 2025-11-04 | feat: add CSS shapes float with shape-outside
+2d073a3 | 2025-11-04 | docs: add multi-column layout example
+53f7f08 | 2025-11-06 | feat: add writing-mode vertical text example
+d10accb | 2025-11-06 | feat: add filter blur brightness contrast
+2e2bf81 | 2025-11-06 | docs: explain backdrop-filter usage
+932eda2 | 2025-11-06 | feat: add mix-blend-mode overlay multiply
+a053885 | 2025-11-06 | feat: add clip-path polygon circle
+9f39c26 | 2025-11-06 | docs: add mask-image gradient reveal effect
+0f17128 | 2025-11-06 | feat: add CSS animation keyframes bounce
+99902ff | 2025-11-06 | feat: add animation-delay iteration fill-mode
+217a7d4 | 2025-11-06 | docs: explain animation-timing cubic-bezier
+1353b10 | 2025-11-06 | feat: add CSS transition all ease-in-out
+f627b49 | 2025-11-06 | feat: add transform 3D perspective rotateX rotateY
+b04b07b | 2025-11-06 | docs: add transform-style preserve-3d card flip
+c0fda3a | 2025-11-06 | feat: add CSS grid display grid columns rows
+0379e54 | 2025-11-06 | docs: explain grid-template-areas named layout
+a253669 | 2025-11-06 | feat: add grid-gap justify-items align-items
+a2b2733 | 2025-11-06 | feat: add grid auto-fit auto-fill minmax
+2eb30ae | 2025-11-08 | feat: add display block inline inline-block examples
+3985912 | 2025-11-08 | docs: explain box model margin padding border
+7f1d8d2 | 2025-11-08 | feat: add CSS reset normalize stylesheet
+4c86b8d | 2025-11-08 | feat: add position static relative absolute fixed
+1e5da62 | 2025-11-08 | docs: tutorial on z-index stacking context
+46cc83c | 2025-11-08 | feat: add float and clear legacy layout
+39f4511 | 2025-11-08 | docs: add overflow hidden auto scroll examples
+bcd9654 | 2025-11-08 | feat: add visibility hidden vs display none
+3c1607c | 2025-11-11 | feat: add opacity and rgba color alpha
+cffb9fe | 2025-11-11 | docs: explain em rem px vh vw units
+7aa3d00 | 2025-11-11 | feat: add min-width max-width min-height examples
+f532a59 | 2025-11-11 | feat: add CSS calc function dynamic values
+1f6072b | 2025-11-11 | docs: add responsive design mobile-first notes
+cf4fedd | 2025-11-11 | feat: add media query breakpoints mobile tablet desktop
+a141351 | 2025-11-11 | feat: add font-family web safe fonts stack
+7498e1c | 2025-11-11 | docs: explain font-weight style variant
+0573afb | 2025-11-11 | feat: add Google Fonts import link method
+31113b7 | 2025-11-11 | feat: add text-align justify decoration transform
+f0bbff7 | 2025-11-11 | docs: add line-height letter-spacing word-spacing
+2dc66ae | 2025-11-11 | feat: add list-style type position image
+4713964 | 2025-11-11 | feat: add background-color image repeat position size
+ce090cd | 2025-11-13 | docs: explain background shorthand property
+0b278ab | 2025-11-13 | feat: add linear-gradient radial-gradient examples
+626153f | 2025-11-13 | feat: add border radius box-shadow examples
+0d8e61d | 2025-11-13 | docs: add CSS specificity and cascade rules
+7ca1e1f | 2025-11-13 | feat: add CSS combinators child sibling adjacent
+321cbf1 | 2025-11-13 | feat: add table border-collapse styling
+d78d3ce | 2025-11-13 | docs: add HTML table accessibility scope headers
+e594dc0 | 2025-11-15 | feat: add form input select textarea styling
+4292b89 | 2025-11-15 | feat: add button states hover active focus
+2d1d58e | 2025-11-15 | docs: add CSS reset vs normalize comparison
+5e844f7 | 2025-11-15 | feat: add outline vs border difference example
+dc48536 | 2025-11-15 | feat: add cursor pointer grab default
+6467b7b | 2025-11-15 | docs: add user-select and pointer-events
+9242c01 | 2025-11-15 | feat: add scroll-snap for carousel effect
+683db46 | 2025-11-15 | feat: add sticky positioning example
+3dc9ade | 2025-11-15 | docs: explain position fixed vs sticky
+6780d36 | 2025-11-15 | feat: add CSS counter for ordered lists
+821a4a3 | 2025-11-15 | feat: add white-space nowrap pre-wrap examples
+d9bc100 | 2025-11-15 | docs: add text-overflow ellipsis truncation
+49914ab | 2025-11-15 | feat: add word-break overflow-wrap long text
+4289291 | 2025-11-15 | feat: add CSS shapes float with shape-outside
+68ef535 | 2025-11-18 | docs: add multi-column layout example
+7b1ae0b | 2025-11-18 | feat: add writing-mode vertical text example
+bfdc36f | 2025-11-18 | feat: add filter blur brightness contrast
+753905f | 2025-11-18 | docs: explain backdrop-filter usage
+fef8080 | 2025-11-18 | feat: add mix-blend-mode overlay multiply
+03fc504 | 2025-11-18 | feat: add clip-path polygon circle
+53cef7e | 2025-11-18 | docs: add mask-image gradient reveal effect
+738f3b8 | 2025-11-18 | feat: add CSS animation keyframes bounce
+6629ea4 | 2025-11-18 | feat: add animation-delay iteration fill-mode
+d553fb8 | 2025-11-18 | docs: explain animation-timing cubic-bezier
+54cacce | 2025-11-18 | feat: add CSS transition all ease-in-out
+8af0d81 | 2025-11-18 | feat: add transform 3D perspective rotateX rotateY
+7d76622 | 2025-11-18 | docs: add transform-style preserve-3d card flip
+7bf181f | 2025-11-18 | feat: add CSS grid display grid columns rows
+482ee77 | 2025-11-18 | docs: explain grid-template-areas named layout
+9d3e5e2 | 2025-11-20 | feat: add grid-gap justify-items align-items
+70f2a70 | 2025-11-20 | feat: add grid auto-fit auto-fill minmax
+04d0257 | 2025-11-20 | feat: add display block inline inline-block examples
+37d4cb4 | 2025-11-20 | docs: explain box model margin padding border
+839ddf5 | 2025-11-20 | feat: add CSS reset normalize stylesheet
+34217c0 | 2025-11-20 | feat: add position static relative absolute fixed
+6aeacc8 | 2025-11-20 | docs: tutorial on z-index stacking context
+fc1cfd6 | 2025-11-20 | feat: add float and clear legacy layout
+9144ea8 | 2025-11-20 | docs: add overflow hidden auto scroll examples
+9016875 | 2025-11-20 | feat: add visibility hidden vs display none
+8b53df4 | 2025-11-22 | feat: add opacity and rgba color alpha
+825655e | 2025-11-22 | docs: explain em rem px vh vw units
+3ebc59b | 2025-11-22 | feat: add min-width max-width min-height examples
+5bc6a82 | 2025-11-22 | feat: add CSS calc function dynamic values
+488e770 | 2025-11-22 | docs: add responsive design mobile-first notes
+42d2aae | 2025-11-22 | feat: add media query breakpoints mobile tablet desktop
+998a597 | 2025-11-22 | feat: add font-family web safe fonts stack
+55dff91 | 2025-11-22 | docs: explain font-weight style variant
+a97cfc7 | 2025-11-22 | feat: add Google Fonts import link method
+8adf941 | 2025-11-22 | feat: add text-align justify decoration transform
+5390b8a | 2025-11-22 | docs: add line-height letter-spacing word-spacing
+4671e83 | 2025-11-22 | feat: add list-style type position image
+5719673 | 2025-11-22 | feat: add background-color image repeat position size
+4ac9e2e | 2025-11-25 | docs: explain background shorthand property
+2ac03b4 | 2025-11-25 | feat: add linear-gradient radial-gradient examples
+3a66fe2 | 2025-11-25 | feat: add border radius box-shadow examples
+c5eed9b | 2025-11-25 | docs: add CSS specificity and cascade rules
+802c2b4 | 2025-11-25 | feat: add CSS combinators child sibling adjacent
+8797da8 | 2025-11-25 | feat: add table border-collapse styling
+d0197f7 | 2025-11-25 | docs: add HTML table accessibility scope headers
+d7033d7 | 2025-11-25 | feat: add form input select textarea styling
+f68dd94 | 2025-11-25 | feat: add button states hover active focus
+af6da61 | 2025-11-25 | docs: add CSS reset vs normalize comparison
+b07f721 | 2025-11-27 | feat: add outline vs border difference example
+77c6eec | 2025-11-27 | feat: add cursor pointer grab default
+6750714 | 2025-11-27 | docs: add user-select and pointer-events
+ed2d792 | 2025-11-27 | feat: add scroll-snap for carousel effect
+b752152 | 2025-11-27 | feat: add sticky positioning example
+dbe3fa8 | 2025-11-27 | docs: explain position fixed vs sticky
+1049def | 2025-11-27 | feat: add CSS counter for ordered lists
+210e275 | 2025-11-27 | feat: add white-space nowrap pre-wrap examples
+d7d54b2 | 2025-11-27 | docs: add text-overflow ellipsis truncation
+a3b4b50 | 2025-11-26 | feat: add word-break overflow-wrap long text
+17aa981 | 2025-11-26 | feat: add CSS shapes float with shape-outside
+5a30010 | 2025-11-26 | docs: add multi-column layout example
+2cfa80c | 2025-11-26 | feat: add writing-mode vertical text example
+0688242 | 2025-11-26 | feat: add filter blur brightness contrast
+0759edc | 2025-11-26 | docs: explain backdrop-filter usage
+7b74683 | 2025-11-28 | feat: add mix-blend-mode overlay multiply
+ca6fa4a | 2025-11-29 | feat: add clip-path polygon circle
+977a775 | 2025-11-29 | docs: add mask-image gradient reveal effect
+a3ad1b9 | 2025-11-29 | feat: add CSS animation keyframes bounce
+bf4ec98 | 2025-11-26 | feat: add animation-delay iteration fill-mode
+535e7b6 | 2025-11-26 | docs: explain animation-timing cubic-bezier
+96b8192 | 2025-11-26 | feat: add CSS transition all ease-in-out
+91672d4 | 2025-11-26 | feat: add transform 3D perspective rotateX rotateY
+8f4183b | 2025-11-26 | docs: add transform-style preserve-3d card flip
+0cb3349 | 2025-11-26 | feat: add CSS grid display grid columns rows
+1a6f0b5 | 2025-11-26 | docs: explain grid-template-areas named layout
+3a1a287 | 2025-11-26 | feat: add grid-gap justify-items align-items
+419ce28 | 2025-11-26 | feat: add grid auto-fit auto-fill minmax
+2b31e79 | 2025-11-26 | feat: add display block inline inline-block examples
+b5491aa | 2025-11-26 | docs: explain box model margin padding border
+ba52fc0 | 2025-11-26 | feat: add CSS reset normalize stylesheet
+3df625a | 2025-11-26 | feat: add position static relative absolute fixed
+a4d0671 | 2025-11-26 | docs: tutorial on z-index stacking context
+566ba19 | 2025-11-29 | feat: add float and clear legacy layout
+53fb6c2 | 2025-11-29 | docs: add overflow hidden auto scroll examples
+9f8b555 | 2025-11-29 | feat: add visibility hidden vs display none
+1d66362 | 2025-11-29 | feat: add opacity and rgba color alpha
+77db151 | 2025-11-29 | docs: explain em rem px vh vw units
+7c426b4 | 2025-11-29 | feat: add min-width max-width min-height examples
+ebd56dc | 2025-11-29 | feat: add CSS calc function dynamic values
+c93fff8 | 2025-11-29 | docs: add responsive design mobile-first notes
+10cd533 | 2025-11-29 | feat: add media query breakpoints mobile tablet desktop
+61b0b90 | 2025-11-29 | feat: add font-family web safe fonts stack
+4a81521 | 2025-11-29 | docs: explain font-weight style variant
+2b2c25d | 2025-11-29 | feat: add Google Fonts import link method
+566b223 | 2025-11-29 | feat: add text-align justify decoration transform
+96ed243 | 2025-11-29 | docs: add line-height letter-spacing word-spacing
