@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--
+  ✅ CORREÇÃO: alterado lang de "en" para "pt-BR"
+  Motivo: melhora acessibilidade e SEO para páginas em português
+-->
+
+<head>
+  <!-- Define corretamente a codificação de caracteres -->
+  <meta charset="UTF-8">
+
+  <!-- Responsividade em dispositivos móveis -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Estudos de Formulários e HTML Semântico</title>
+</head>
+
+<body>
+
+  <!-- ============================ -->
+  <!-- INPUT TEXT / EMAIL -->
+  <!-- ============================ -->
+
+  <h1>Input Text</h1>
+
+  <!--
+    ✅ CORREÇÃO:
+    - label agora aponta corretamente para o id do input
+    - id e name padronizados
+  -->
+  <label for="nome">Nome</label>
+  <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+
+  <br><br>
+
+  <!--
+    ✅ CORREÇÃO IMPORTANTE:
+    type="email" no lugar de type="text"
+    Motivo: validação automática do navegador
+  -->
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+
+  <!--
+    value      = valor padrão enviado ao backend
+    placeholder= texto de ajuda visual
+    required   = campo obrigatório
+  -->
+
+  <br><br>
+
+  <!-- ============================ -->
+  <!-- NUMBER / PASSWORD / SUBMIT -->
+  <!-- ============================ -->
+
+  <h1>Number - Password - Submit</h1>
+
+  <label for="numero">Número</label>
+  <input type="number" name="numero" id="numero">
+
+  <br><br>
+
+  <label for="senha">Senha</label>
+  <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+
+  <br><br>
+
+  <input type="submit" value="Salvar" id="salvar">
+
+  <!-- ============================ -->
+  <!-- CHECKBOX E RADIO -->
+  <!-- ============================ -->
+
+  <h1>Checkbox</h1>
+
+  <!--
+    ✅ CORREÇÃO:
+    IDs não podem conter caracteres especiais (#)
+  -->
+  <label for="csharp">C#</label>
+  <input type="checkbox" name="linguagens" id="csharp" checked>
+
+  <br>
+
+  <label for="javascript">JavaScript</label>
+  <input type="checkbox" name="linguagens" id="javascript">
+
+  <br>
+
+  <label for="python">Python</label>
+  <input type="checkbox" name="linguagens" id="python">
+
+  <!-- checked = já vem marcado -->
+
+  <br><br>
+
+  <h3>Gênero (Radio)</h3>
+
+  <!--
+    Radio buttons precisam ter o MESMO name
+    para permitir apenas uma escolha
+  -->
+  <label for="masculino">Masculino</label>
+  <input type="radio" name="genero" id="masculino" value="Masculino" checked>
+
+  <label for="feminino">Feminino</label>
+  <input type="radio" name="genero" id="feminino" value="Feminino">
+
+  <br><br>
+
+  <!-- ============================ -->
+  <!-- SELECT -->
+  <!-- ============================ -->
+
+  <h1>Select</h1>
+
+  <label for="filmes">Filmes</label>
+  <select name="filmes" id="filmes">
+    <option value="">Selecione um Filme</option>
+    <option value="homem-aranha">Homem Aranha</option>
+    <option value="doutor-estranho">Doutor Estranho</option>
+    <option value="deadpool">Deadpool</option>
+    <option value="vingadores">Vingadores</option>
+  </select>
+
+  <!--
+    DICA:
+    atributo multiple permite múltiplas seleções
+  -->
+
+  <br><br>
+
+  <!-- ============================ -->
+  <!-- TEXTAREA -->
+  <!-- ============================ -->
+
+  <h1>Textarea</h1>
+
+  <textarea name="texto" id="texto" cols="50" rows="10">
+Texto de exemplo dentro do textarea.
+  </textarea>
+
+  <br><br>
+
+  <!-- ============================ -->
+  <!-- BUTTON -->
+  <!-- ============================ -->
+
+  <h1>Botões</h1>
+
+  <button type="button" style="width:200px; height:40px; font-size:20px;">
+    Botão Normal
+  </button>
+
+  <br><br>
+
+  <input type="button" value="Com Input" onclick="alert('Clicou')" style="width:200px; height:40px; font-size:20px;">
+
+  <br><br>
+
+  <!-- ============================ -->
+  <!-- FORMULÁRIOS GET E POST -->
+  <!-- ============================ -->
+
+  <h1>Formulários</h1>
+
+  <!-- GET envia dados pela URL -->
+  <form action="https://www.google.com" method="GET">
+    <input type="text" name="valor" value="GET">
+    <input type="submit">
+  </form>
+
+  <br><br>
+
+  <!-- POST envia dados de forma mais segura -->
+  <form action="https://www.google.com" method="POST">
+    <input type="text" name="valor" value="POST">
+    <input type="submit">
+  </form>
+
+  <br><br>
+
+  <!-- ============================ -->
+  <!-- FORMULÁRIO COMPLETO -->
+  <!-- ============================ -->
+
+  <!--
+    ❌ ERRO ORIGINAL:
+    form estava fechado incorretamente
+
+    ✅ CORREÇÃO:
+    abertura e fechamento corretos + enctype aplicado
+  -->
+
+  <form action="#" method="POST" enctype="multipart/form-data">
+
+    <input type="text" name="nome" placeholder="Nome"><br>
+    <input type="text" name="sobrenome" placeholder="Sobrenome"><br>
+    <input type="text" name="contato" placeholder="E-mail ou Celular"><br>
+    <input type="password" name="senha" placeholder="Nova senha"><br><br>
+
+    <label>Data de Nascimento</label><br>
+    <select name="dia">
+      <option>1</option>
+      <option>2</option>
+    </select>
+    <select name="mes">
+      <option>Jan</option>
+      <option>Fev</option>
+    </select>
+    <select name="ano">
+      <option>2000</option>
+      <option>2001</option>
+    </select>
+
+    <br><br>
+
+    <label>Gênero</label><br>
+    <input type="radio" name="genero" value="Masculino" checked> Masculino
+    <input type="radio" name="genero" value="Feminino"> Feminino
+    <input type="radio" name="genero" value="Personalizado"> Personalizado
+
+    <br><br>
+
+    <!-- input file exige enctype multipart -->
+    <input type="file" name="arquivo"><br><br>
+
+    <input type="submit" value="Cadastrar">
+  </form>
+
+  <!-- ============================ -->
+  <!-- HTML SEMÂNTICO -->
+  <!-- ============================ -->
+
+  <header>
+    <!-- Header representa o cabeçalho principal -->
+    <h1>Tags Semânticas</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Portfólio</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Conteúdo principal da página -->
+    <section>
+      <article>
+        <h2>C#</h2>
+        <p>C# é muito legal</p>
+      </article>
+
+      <article>
+        <h2>JavaScript</h2>
+        <p>JavaScript roda no front e no back-end com Node.js</p>
+      </article>
+    </section>
+
+    <aside>
+      <!-- Conteúdo complementar -->
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Site</a></li>
+      </ul>
+    </aside>
+
+    <figure>
+      <img src="logo-html.jpg" alt="Logo do HTML">
+      <figcaption>Logo do HTML</figcaption>
+    </figure>
+  </main>
+
+  <footer>
+    <!-- Rodapé da página -->
+    <h2>Rodapé</h2>
+    <address>
+      <a href="#">Meu LinkedIn</a>
+    </address>
+  </footer>
+
+</body>
+
+</html>

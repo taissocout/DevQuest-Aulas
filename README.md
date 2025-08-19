@@ -1,46 +1,63 @@
+# 📌 DevQuest Aulas
 
-# 📌 # DevQuest Aulas
-
-Breve descrição do que é o projeto e qual o objetivo principal.
-Exemplo: Projeto desenvolvido para praticar HTML, CSS e conceitos básicos de tabelas.
+Repositório de estudos do curso **DevQuest**, criado para praticar e consolidar fundamentos de **HTML, CSS e versionamento com Git**.  
+Este projeto também serve como base de organização, revisão e portfólio.
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- HTML5
-- CSS3
-- JavaScript (se tiver)
-- Git e GitHub
+- HTML5  
+- CSS3  
+- Git  
+- GitHub  
+- Inteligência Artificial (ChatGPT e Grok)
 
 ---
 
-## 📚 O que foi aprendido
+## 📚 Conteúdos Praticados
 
-Neste projeto, foram praticados os seguintes conceitos:
-
-- Estrutura básica do HTML
-- Uso de tabelas (`table`, `thead`, `tbody`, `tfoot`)
-- Boas práticas de organização de código
-- Versionamento com Git
-- Publicação no GitHub
+- Estrutura e semântica do HTML  
+- Formulários e inputs  
+- Tabelas semânticas (`table`, `thead`, `tbody`, `tfoot`)  
+- Propriedades de texto e fontes  
+- Background, display e position  
+- Boas práticas de organização de código  
+- Versionamento com Git e GitHub  
 
 ---
 
-## 🖥️ Demonstração
+## 🤖 Uso de Inteligência Artificial
 
-📸 *(Opcional)*  
-Adicione aqui um print do projeto ou um link para o GitHub Pages.
+A Inteligência Artificial faz parte do meu fluxo de aprendizado e desenvolvimento.
 
-Exemplo:
-👉 https://seuusuario.github.io/nome-do-projeto/
+Neste projeto, a IA foi utilizada para:
+- Revisar e corrigir HTML e CSS  
+- Entender erros e bugs mais rapidamente  
+- Aprender conceitos com explicações personalizadas  
+- Organizar estrutura de pastas e boas práticas  
+- Criar e otimizar este README  
+
+Sempre utilizando a IA como **apoio ao aprendizado**, entendendo todo o código antes de aplicar.
 
 ---
 
 ## 📂 Estrutura de Pastas
 
 ```text
-📁 nome-do-projeto
- ┣ 📄 index.html
- ┣ 📄 style.css
+📁 DevQuest-Aulas
+ ┣ 📁 Css
+ ┃ ┣ 📁 images
+ ┃ ┃ ┣ 🖼️ icone.png
+ ┃ ┃ ┗ 🖼️ sukuna.jpg
+ ┃ ┣ 📄 index.html
+ ┃ ┗ 📄 style.css
+ ┣ 📁 Html
+ ┃ ┗ 📁 html
+ ┃   ┣ 📄 index.html
+ ┃   ┗ 📄 README.md
+ ┣ 📁 Tabelas
+ ┃ ┗ 📁 tabela
+ ┃   ┗ 📄 index.html
+ ┣ 📄 .gitignore
  ┗ 📄 README.md
