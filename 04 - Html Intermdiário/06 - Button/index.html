@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+</head>
+
+<body>
+
+    <h1>Button</h1>
+    <h5>Com tag button</h5>
+
+    <!--
+      A tag <button> é a forma MAIS FLEXÍVEL de criar botões
+      Pode conter texto, ícones, HTML dentro e estilos avançados
+    -->
+
+    <!--
+      onclick
+      → executa um código JavaScript quando o botão é clicado
+      Neste exemplo, usamos alert apenas para demonstração
+    -->
+    <button onclick="alert('Hellow World')">Click Me!</button>
+
+    <br><br>
+
+    <h5>Com tag input</h5>
+
+    <!--
+      input type="button"
+      → cria um botão simples
+      → menos flexível que <button>
+      → normalmente usado em exemplos simples ou código legado
+    -->
+
+    <!--
+      value
+      → texto exibido no botão
+
+      onclick
+      → ação executada ao clicar
+    -->
+    <input
+        type="button"
+        name="botao"
+        id="botao"
+        value="Click Me Too!"
+        onclick="alert('Hellow World 2')"
+    >
+
+    <!--
+      BOA PRÁTICA:
+      ✔ Prefira <button> em projetos modernos
+      ✔ Use input type="button" apenas quando necessário
+      ✔ Em formulários, use type="submit" para enviar dados
+    -->
+
+</body>
+
+</html>

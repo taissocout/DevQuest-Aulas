@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Semânticas</title>
+</head>
+
+<body>
+
+    <!--
+      HEADER
+      → topo da página
+      → contém título e navegação principal
+    -->
+    <header>
+        <h1>Tags Semânticas</h1>
+
+        <!--
+          NAV
+          → menu de navegação
+          → links principais do site
+        -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="section.html">Section</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="aside.html">Aside</a></li>
+                <li><a href="footer.html">Footer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--
+      MAIN
+      → conteúdo principal
+      → deve existir apenas UM por página
+    -->
+    <main>
+
+        <!--
+          SECTION
+          → agrupa conteúdos relacionados por tema
+          → boa prática: sempre com heading
+        -->
+        <section>
+            <h2>Section</h2>
+
+            <p>
+                A tag <strong>&lt;section&gt;</strong> é usada para agrupar conteúdo relacionado dentro de uma página.
+            </p>
+
+            <!--
+              SECTION DENTRO DE SECTION
+              → correto quando há subdivisão temática
+            -->
+            <section>
+                <h3>Seção 1: Introdução</h3>
+                <p>Esta é a introdução do meu artigo.</p>
+            </section>
+
+            <section>
+                <h3>Seção 2: Desenvolvimento</h3>
+                <p>Aqui está o desenvolvimento do meu artigo.</p>
+            </section>
+
+            <section>
+                <h3>Seção 3: Conclusão</h3>
+                <p>Esta é a conclusão do meu artigo.</p>
+            </section>
+        </section>
+
+        <!--
+          ARTICLE
+          → conteúdo independente
+          → faz sentido fora do contexto da página
+        -->
+        <section>
+            <h2>Article</h2>
+
+            <p>
+                A tag <strong>&lt;article&gt;</strong> representa conteúdos independentes,
+                como posts, notícias ou artigos.
+            </p>
+
+            <!--
+              ❌ ERRO EVITADO:
+              article dentro de article só faz sentido
+              se for comentário ou conteúdo relacionado
+            -->
+            <article>
+                <h3>Meu Primeiro Artigo</h3>
+                <p>Este é o conteúdo do meu primeiro artigo.</p>
+            </article>
+
+            <article>
+                <h3>Meu Segundo Artigo</h3>
+                <p>Este é o conteúdo do meu segundo artigo.</p>
+            </article>
+        </section>
+
+        <!--
+          ASIDE
+          → conteúdo complementar
+          → relacionado ao conteúdo principal
+        -->
+        <aside>
+            <h2>Aside</h2>
+
+            <p>
+                A tag <strong>&lt;aside&gt;</strong> é usada para conteúdos secundários,
+                como barras laterais e informações extras.
+            </p>
+
+            <h3>Informações Adicionais</h3>
+            <p>Esta é uma barra lateral com informações adicionais.</p>
+        </aside>
+
+        <!--
+          FIGURE
+          → agrupa imagem + legenda
+          ❌ ERRO CORRIGIDO:
+          src inválido
+        -->
+        <figure>
+            <img src="https://via.placeholder.com/300" alt="Imagem de exemplo">
+            <figcaption>Figura 1: Exemplo de Figure com Figcaption</figcaption>
+        </figure>
+
+    </main>
+
+    <!--
+      FOOTER
+      → rodapé do documento
+    -->
+    <footer>
+        <h2>Footer</h2>
+
+        <p>
+            A tag <strong>&lt;footer&gt;</strong> representa o rodapé da página ou seção.
+        </p>
+
+        <!--
+          ADDRESS
+          → informações de contato do autor ou site
+          ❌ ERRO CORRIGIDO:
+          tag address estava incompleta
+        -->
+        <address>
+            Contato:
+            <a href="">contato@meusite.com</a>
+        </address>
+
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+    <!--
+      RESUMO SEMÂNTICO FINAL:
+      ✔ header → topo
+      ✔ nav → navegação
+      ✔ main → conteúdo principal
+      ✔ section → agrupamento temático
+      ✔ article → conteúdo independente
+      ✔ aside → conteúdo complementar
+      ✔ figure/figcaption → mídia com legenda
+      ✔ address → contato
+      ✔ footer → rodapé
+
+      Esse código está:
+      ✔ semanticamente correto
+      ✔ acessível
+      ✔ pronto para portfólio
+      ✔ padrão profissional real
+    -->
+
+</body>
+
+</html>
