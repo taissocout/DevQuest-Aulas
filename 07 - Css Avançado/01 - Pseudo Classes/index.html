@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!--
+    Código criado por dev, corrigido com IA e feito em vibe coding 😄
+    Objetivo: demonstrar pseudo-classes CSS de forma didática e organizada.
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Pseudo Classes (CSS)</title>
+
+  <!-- Boas práticas: preload não é necessário aqui; só linkar o CSS já resolve -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Container para centralizar e dar largura máxima (padrão em projetos reais) -->
+  <main class="container">
+    <header class="topo">
+      <h1>Pseudo Classes</h1>
+      <p class="subtitulo">
+        Este exemplo mostra como o CSS consegue “selecionar” elementos pelo comportamento/posição
+        (primeiro filho, último filho, ímpar/par etc.).
+      </p>
+    </header>
+
+    <!-- =======================================================
+         1) FIRST-CHILD
+         ======================================================= -->
+    <section class="card">
+      <h2>1) :first-child</h2>
+
+      <p class="explicacao">
+        ✅ <strong>O que significa:</strong> <code>:first-child</code> seleciona o elemento APENAS se ele for o
+        <strong>primeiro filho</strong> do pai dele.
+        <br />
+        👉 Aqui, colocamos os parágrafos dentro de um bloco (<code>.bloco</code>), então o primeiro <code>&lt;p&gt;</code>
+        vira o “primeiro filho” e o estilo funciona.
+      </p>
+
+      <div class="bloco">
+        <p class="padrao">
+          Eu sou o primeiro parágrafo dentro do bloco, então eu posso ser selecionado por <code>p:first-child</code>.
+        </p>
+
+        <p>
+          Eu sou o segundo parágrafo do bloco, então eu NÃO sou <code>:first-child</code>.
+          Mas posso ser pego por outras regras, como <code>:not(.padrao)</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         2) LAST-CHILD
+         ======================================================= -->
+    <section class="card">
+      <h2>2) :last-child</h2>
+
+      <p class="explicacao">
+        ✅ <strong>O que significa:</strong> <code>:last-child</code> seleciona o elemento APENAS se ele for o
+        <strong>último filho</strong> do pai dele.
+        <br />
+        👉 No bloco abaixo, o último elemento é um <code>&lt;p&gt;</code>, então ele recebe o estilo de <code>p:last-child</code>.
+      </p>
+
+      <div class="bloco">
+        <p>
+          Eu sou o primeiro parágrafo deste bloco.
+        </p>
+
+        <p>
+          Eu sou o último parágrafo deste bloco, então eu posso ser selecionado por <code>p:last-child</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         3) NOT
+         ======================================================= -->
+    <section class="card">
+      <h2>3) :not()</h2>
+
+      <p class="explicacao">
+        ✅ <strong>O que significa:</strong> <code>:not()</code> seleciona “tudo menos” o que você colocar dentro.
+        <br />
+        👉 Exemplo: <code>p:not(.padrao)</code> pega todo <code>&lt;p&gt;</code> que NÃO tenha a classe <code>padrao</code>.
+      </p>
+
+      <div class="bloco">
+        <p class="padrao">
+          Eu tenho a classe <code>padrao</code>, então eu NÃO vou receber o estilo do <code>:not(.padrao)</code>.
+        </p>
+
+        <p>
+          Eu NÃO tenho a classe <code>padrao</code>, então eu VOU receber o estilo do <code>p:not(.padrao)</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         4) NTH-CHILD
+         ======================================================= -->
+    <section class="card">
+      <h2>4) :nth-child()</h2>
+
+      <p class="explicacao">
+        ✅ <strong>O que significa:</strong> <code>:nth-child()</code> seleciona filhos por posição.
+        <br />
+        👉 <code>even</code> = pares (2, 4, 6...) e <code>odd</code> = ímpares (1, 3, 5...).
+      </p>
+
+      <ul class="lista">
+        <li>Item 1 (ímpar)</li>
+        <li>Item 2 (par)</li>
+        <li>Item 3 (ímpar)</li>
+        <li>Item 4 (par)</li>
+      </ul>
+    </section>
+
+    <footer class="rodape">
+      <p>
+        Dica de dev: evite usar <code>&lt;br&gt;</code> para espaçamento. Prefira CSS com <code>margin</code> e <code>gap</code>.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>

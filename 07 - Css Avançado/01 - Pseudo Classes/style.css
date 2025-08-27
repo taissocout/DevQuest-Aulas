@@ -1,0 +1,111 @@
+/* =========================================================
+   Código criado por dev, corrigido com IA e feito em vibe coding 😄
+   Objetivo: ensinar pseudo-classes com exemplos práticos.
+   ========================================================= */
+
+/* 1) Reset básico (bem comum em projetos reais) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2) Estilo base do documento */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f1115;
+  color: #e8e8e8;
+  line-height: 1.6;
+}
+
+/* 3) Container centralizado (padrão usado por devs) */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* 4) “Cards” para organizar as seções */
+.card {
+  background: #171a21;
+  border: 1px solid #2a2f3a;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* Topo */
+.topo h1 {
+  margin-bottom: 8px;
+}
+
+.subtitulo {
+  opacity: 0.85;
+  margin-bottom: 16px;
+}
+
+/* Textos explicativos (tutorial dentro dos parágrafos) */
+.explicacao {
+  margin-bottom: 12px;
+}
+
+/* Bloco que “segura” os parágrafos para demonstrar first/last-child */
+.bloco {
+  display: grid;
+  gap: 12px; /* substitui o <br> */
+  padding: 12px;
+  border-radius: 10px;
+  background: #10131a;
+  border: 1px dashed #2a2f3a;
+}
+
+/* Lista */
+.lista {
+  margin-top: 8px;
+  padding-left: 18px;
+}
+
+/* =========================================================
+   PSEUDO-CLASSES (com escopo por classe pra não “vazar”)
+   ========================================================= */
+
+/* :first-child -> pega o <p> se ele for o PRIMEIRO FILHO do pai (.bloco) */
+.bloco p:first-child {
+  color: #66a6ff;
+  font-weight: bold;
+}
+
+/* :last-child -> pega o <p> se ele for o ÚLTIMO FILHO do pai (.bloco) */
+.bloco p:last-child {
+  color: #6ee7a8;
+  font-style: italic;
+}
+
+/* :not(.padrao) -> pega todo <p> QUE NÃO tenha a classe .padrao */
+.bloco p:not(.padrao) {
+  color: #ffd166;
+}
+
+/* :nth-child(even/odd) -> aplica alternância em filhos (aqui usamos na lista) */
+.lista li:nth-child(even) {
+  color: #c084fc;
+}
+
+.lista li:nth-child(odd) {
+  color: #fb7185;
+}
+
+/* Rodapé */
+.rodape {
+  opacity: 0.85;
+  margin-top: 8px;
+  padding: 8px 0;
+}
+
+/* Pequena melhoria: deixar <code> mais legível */
+code {
+  background: #0b0d12;
+  border: 1px solid #2a2f3a;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
