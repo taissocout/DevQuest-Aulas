@@ -1,152 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+  Documento HTML5
+  lang="en" indica o idioma principal da página (inglês)
+-->
 
 <head>
+    <!-- Define o conjunto de caracteres para evitar erros de acentuação -->
     <meta charset="UTF-8">
+
+    <!-- Faz a página se adaptar corretamente a dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importa o arquivo CSS externo -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Título exibido na aba do navegador -->
     <title>Estudos CSS</title>
 </head>
 
 <body>
 
+    <!-- ============================ -->
+    <!-- CASCATA E ESPECIFICIDADE CSS -->
+    <!-- ============================ -->
+
     <h1>Efeito Cascata</h1>
-    <div class="conteiner-cascata">
-        <h2>Conteiner Cascata</h2>
-        <p id="meu-paragrafo">There are many variations of
-            passages of Lorem Ipsum available, but the majority
-            have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even
-            slightly believable. If you are going to use a
-            passage of Lorem Ipsum, you need to be sure there
-            isn't anything embarrassing hidden in the middle
-            of text. 
-        </p>
-    </div>-->
 
-<p class="alinhamento-esquerda fundo-alinhamento">
-        Alinhamento a esquerda
-    </p>
+    <!-- Container usado para estudar herança e cascata -->
+    <div class="container-cascata">
+        <h2>Container Cascata</h2>
 
-    <div class="alinhamento-direita fundo-alinhamento">
-        <p>
-            Alinhamento a direita
+        <!--
+          ID tem mais peso que class no CSS
+          Ideal usar ID apenas quando for único
+        -->
+        <p id="meu-paragrafo">
+            There are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration in some form.
         </p>
     </div>
 
+    <!-- ============================ -->
+    <!-- ALINHAMENTO DE TEXTO -->
+    <!-- ============================ -->
+
+    <!-- Alinhamento à esquerda -->
+    <p class="alinhamento-esquerda fundo-alinhamento">
+        Alinhamento à esquerda
+    </p>
+
+    <!-- Alinhamento à direita -->
+    <div class="alinhamento-direita fundo-alinhamento">
+        <p>Alinhamento à direita</p>
+    </div>
+
+    <!-- Alinhamento centralizado -->
     <p class="alinhamento-centro fundo-alinhamento">
         Alinhamento Centro
     </p>
 
+    <!-- ============================ -->
+    <!-- TEXT DECORATION E TRANSFORM -->
+    <!-- ============================ -->
+
     <h1>Text Decoration</h1>
 
+    <!-- Texto justificado -->
     <h2>Texto Justificado</h2>
-    <p class="alinhamento-justificado fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable.
+    <p class="alinhamento-justificado fundo-alinhado">
+        Texto com alinhamento justificado.
     </p>
 
+    <!-- Texto sem justificação -->
     <h2>Texto não Justificado</h2>
-    <p class="fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable. 
+    <p class="fundo-alinhado">
+        Texto padrão sem alinhamento especial.
     </p>
 
-    <h2>Texto maiusculo - UPPERCASE</h2>
-    <p class="maiusculo fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable. 
+    <!-- Transformação para maiúsculas -->
+    <h2>UPPERCASE</h2>
+    <p class="maiusculo fundo-alinhado">
+        Texto transformado em maiúsculas.
     </p>
 
-    <h2>Texto minusculo - LOWERCASE</h2>
-    <p class="minusculo fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable. 
+    <!-- Transformação para minúsculas -->
+    <h2>LOWERCASE</h2>
+    <p class="minusculo fundo-alinhado">
+        Texto transformado em minúsculas.
     </p>
 
-    <h2>Texto capitalizado - capitalize</h2>
-    <p class="capitalizado fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable. 
+    <!-- Primeira letra de cada palavra em maiúscula -->
+    <h2>Capitalize</h2>
+    <p class="capitalizado fundo-alinhado">
+        Texto capitalizado.
     </p>
 
-    <h2>Texto sublinhado</h2>
-    <p class="sublinhado fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable. 
+    <!-- Sublinhado -->
+    <h2>Sublinhado</h2>
+    <p class="sublinhado fundo-alinhado">
+        Texto sublinhado.
     </p>
 
-    <h2>Texto linha sobreposta</h2>
-    <p class="linha-sobreposta fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable. 
+    <!-- Linha cortando o texto -->
+    <h2>Linha sobreposta</h2>
+    <p class="linha-sobreposta fundo-alinhado">
+        Texto com linha sobreposta.
     </p>
 
-    <h2>Texto sem decoração </h2>
-    <p class="sem-text-decoration fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable.<a class="sem-text-decoration" href="">Clica aqui</a>
+    <!-- Remove decoração de links -->
+    <h2>Sem decoração</h2>
+    <p class="fundo-alinhado">
+        <a class="sem-text-decoration" href="#">Link sem sublinhado</a>
     </p>
 
-    <h2>Sombra de Texto</h2>
-    <p class="sombra fundo-alinhado">There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable. 
+    <!-- Sombra de texto -->
+    <h2>Sombra</h2>
+    <p class="sombra fundo-alinhado">
+        Texto com sombra.
     </p>
 
-    </div>
+    <!-- ============================ -->
+    <!-- FONTES -->
+    <!-- ============================ -->
 
+    <h1>Propriedades de Fonte</h1>
 
+    <!-- Parágrafos para estudar font-family, size, weight -->
+    <p>Parágrafo para estudo de fontes.</p>
+    <p>Outro parágrafo para comparação.</p>
 
-    <h1>Propriedades Fontes</h1>
-
-    <p>There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or Frandomised words which don't look even
-        slightly believable.
-    </p>
-
-    <p>There are many variations of
-        passages of Lorem Ipsum available, but the majority
-        have suffered alteration in some form, by injected
-        humour, or randomised words which don't look even
-        slightly believable.
-    </p>
+    <!-- ============================ -->
+    <!-- LINKS -->
+    <!-- ============================ -->
 
     <h1>Links</h1>
-    <a href="#1">Click aqui</a>
-    <a href="#2">Click aqui</a>
-    <a href="#3">Click aqui</a>
+    <!-- Usado para estudar hover, visited, active -->
+    <a href="#1">Link 1</a>
+    <a href="#2">Link 2</a>
+    <a href="#3">Link 3</a>
 
-
-
+    <!-- ============================ -->
+    <!-- LISTAS -->
+    <!-- ============================ -->
 
     <h1>Listas</h1>
+
+    <!-- Lista não ordenada -->
     <h2>Lista Desordenada</h2>
     <ul>
         <li>Café</li>
         <li>Energético</li>
         <li>Miojo</li>
     </ul>
+
+    <!-- Lista ordenada -->
     <h2>Lista Ordenada</h2>
     <ol>
         <li>Item 1</li>
@@ -154,95 +162,84 @@
         <li>Item 3</li>
     </ol>
 
+    <!-- ============================ -->
+    <!-- BACKGROUND -->
+    <!-- ============================ -->
 
+    <h1>Background Image</h1>
 
-    <h1>background image</h1>
+    <!-- Div com imagem de fundo -->
     <div class="bg bg-image">
-        <p>
-            here are many variations of
-            passages of Lorem Ipsum available, but the majority
-            have suffered alteration in some form, by injected
-            humour, or Frandomised words which don't look even
-            slightly believable.
-        </p>
+        <p>Texto sobre uma imagem de fundo.</p>
     </div>
 
- 
+    <!-- ============================ -->
+    <!-- DISPLAY -->
+    <!-- ============================ -->
 
-
-    <h2>Display Block</h2>
+    <h2>Display: block</h2>
     <ul class="em-bloco">
         <li>1</li>
         <li>2</li>
         <li>3</li>
     </ul>
 
-    <h2>Display Inline</h2>
+    <h2>Display: inline</h2>
     <ul class="em-linha">
         <li>1</li>
         <li>2</li>
         <li>3</li>
     </ul>
 
-    <h2>Display inline-Block</h2>
+    <h2>Display: inline-block</h2>
     <ul class="em-linha-e-bloco">
         <li>1</li>
         <li>2</li>
         <li>3</li>
     </ul>
 
-    <h2>Display none</h2>
+    <h2>Display: none</h2>
     <ul class="esconder">
         <li>1</li>
         <li>2</li>
         <li>3</li>
     </ul>
 
+    <!-- ============================ -->
+    <!-- POSITION -->
+    <!-- ============================ -->
 
-<h1>Position Static, Relative e Absolute</h1>
+    <h1>Position</h1>
 
-    <div class="elemento elemento-estatico">
-        Static
+    <!-- Position static (padrão) -->
+    <div class="elemento elemento-estatico">Static</div>
+
+    <!-- Position relative -->
+    <div class="elemento elemento-relativo">Relative</div>
+
+    <!-- Position absolute -->
+    <div class="elemento elemento-absoluto">Absolute</div>
+
+    <!-- Absolute dentro de um pai -->
+    <div class="elemento elemento-pai">
+        <div class="elemento elemento-filho">Absolute com pai</div>
     </div>
 
-    <div class="elemento elemento-relativo">
-        Relative
-    </div>
+    <!-- ============================ -->
+    <!-- POSITION FIXED -->
+    <!-- ============================ -->
 
-    <div class="elemento elemento-absoluto">
-        Absolute
-    </div>
-
-    <div class="elemento elemento-estatico">
-        Outro elemento estático
-    </div>
-
-    <div class="elemento elemento-filho">
-        <div class="elemento elemento-pai">
-            Absolute com pai
-        </div>
-    </div> 
-
-
-    POSITION FIXED
+    <!-- Header fixo no topo -->
     <header>
-        <nav>
-            Menu
-        </nav>
+        <nav>Menu fixo</nav>
     </header>
 
     <main>
         <h1>Position Fixed</h1>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ipsa commodi fugit blanditiis sed laudantium quidem itaque sapiente? Optio doloribus voluptatem quaerat laborum neque cupiditate autem ab illo maiores officia!</p>
-    
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ipsa commodi fugit blanditiis sed laudantium quidem itaque sapiente? Optio doloribus voluptatem quaerat laborum neque cupiditate autem ab illo maiores officia!</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ipsa commodi fugit blanditiis sed laudantium quidem itaque sapiente? Optio doloribus voluptatem quaerat laborum neque cupiditate autem ab illo maiores officia!</p>
-
+        <p>Conteúdo para testar scroll.</p>
+        <p>Conteúdo para testar scroll.</p>
+        <p>Conteúdo para testar scroll.</p>
     </main>
 
-
 </body>
-
 </html>

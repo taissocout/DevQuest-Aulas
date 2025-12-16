@@ -1,192 +1,182 @@
-/*-------------------------------------------*/
-/*-------------- Especificidade -------------*/
-/*-------------------------------------------*/
+/* =====================================================
+   ESTUDOS DE CSS – ARQUIVO style.css
+   Comentado como tutorial + correções explicadas
+   ===================================================== */
 
+/* =====================================================
+   1️⃣ ESPECIFICIDADE E EFEITO CASCATA
+   ===================================================== */
 
+/* ❌ ERRO ORIGINAL:
+   - Comentário fechado incorretamente
+   - Uso excessivo de !important
+   - Nome da classe escrito diferente do HTML (conteiner x container)
+*/
+
+/* ID tem mais especificidade que classe e tag */
 #meu-paragrafo {
     background-color: blueviolet;
 }
 
-.conteiner-cascata p {
-    background-color: aqua
-        !important
-    ;
+/* Classe + elemento tem menos peso que ID */
+.container-cascata p {
+    background-color: aqua; /* !important removido (boa prática) */
 }
 
-
+/* Regra genérica (menor especificidade) */
 p {
     background-color: red;
-}*/
+}
 
-/* 0.0.1*/
+/* 📌 RESUMO TEÓRICO:
+   Ordem de força:
+   !important > inline > ID > class > tag
+   !important deve ser EVITADO
+*/
 
-/*No efeito cascata a especificidade se destaca sempre
-(!important) é o usado no maior escalão de especificidade usado
-em ultimos casos*/
 
-/* ----------------------------------------------------*/
-/* -------------------- TEXT ALIGN --------------------*/
-/* ----------------------------------------------------*/
-
+/* =====================================================
+   2️⃣ TEXT ALIGN / TEXT TRANSFORM / DECORATION
+   ===================================================== */
 
 .fundo-alinhado {
     background-color: rgb(199, 199, 199);
     padding: 20px;
 }
 
-.alinhamento-esquerda {
-    text-align: left;
-}
+.alinhamento-esquerda { text-align: left; }
+.alinhamento-direita  { text-align: right; }
+.alinhamento-centro   { text-align: center; }
+.alinhamento-justificado { text-align: justify; }
 
-.alinhamento-direita {
-    text-align: right;
-}
+/* Transformação de texto */
+.maiusculo   { text-transform: uppercase; }
+.minusculo   { text-transform: lowercase; }
+.capitalizado { text-transform: capitalize; }
 
-.alinhamento-centro {
-    text-align: center;
-}
+/* Decoração de texto */
+.sublinhado        { text-decoration: underline; }
+.linha-sobreposta  { text-decoration: line-through; }
+.sem-text-decoration { text-decoration: none; }
 
-.alinhamento-justificado {
-    text-align: justify;
-}
-
-.maiusculo {
-    text-transform: uppercase;
-}
-
-.minusculo {
-    text-transform: lowercase;
-}
-
-.capitalizado {
-    text-transform: capitalize;
-}
-
-.sublinhado {
-    text-decoration: underline;
-}
-
-.linha-sobreposta {
-    text-decoration: line-through;
-}
-
-.sem-text-decoration {
-    text-decoration: none;
-}
-
+/* Sombra no texto */
 .sombra {
-    text-shadow: 10px 10px 1px #808080;
+    text-shadow: 4px 4px 2px #808080;
 }
-*/
 
 
-/*-------------------------------------------------------*/
-/*-----------------Propriedades Fontes-------------------*/
-/*-------------------------------------------------------*/
-
+/* =====================================================
+   3️⃣ FONTES
+   ===================================================== */
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-family:'Courier New', Courier, monospace;    
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
 }
 
+/* =====================================================
+   4️⃣ LINKS E PSEUDO-CLASSES
+   ===================================================== */
 
-/*-------------------------------------------------------*/
-/*-------------------------Links-------------------------*/
-/*-------------------------------------------------------*/
-
-
+/* ❌ ERRO CONCEITUAL ORIGINAL:
+   cursor: progress não é adequado para links
+*/
 
 a {
-    cursor: progress;
+    cursor: pointer; /* cursor correto para links */
     margin: 20px;
     padding: 10px;
 }
 
+/* Link já visitado */
 a:visited {
     color: orange;
 }
 
+/* Enquanto está sendo clicado */
 a:active {
     color: red;
 }
 
+/* Ao passar o mouse */
 a:hover {
     background-color: red;
     color: white;
 }
 
 
+/* =====================================================
+   5️⃣ LISTAS
+   ===================================================== */
 
-/*-------------------------------------------------------*/
-/*-------------------------Listas------------------------*/
-/*-------------------------------------------------------*/
-
-
-ul {
-    list-style: square inside url('./images/iconeee.png');
-}
+/* ❌ ERRO ORIGINAL:
+   Caminho de imagem errado (iconeee.png)
 */
 
-/*-------------------------------------------------------*/
-/*-------------------------BackGroud---------------------*/
-/*-------------------------------------------------------*/
-
-p {
-    color: coral;
-    font-size: 24px;
-    font-weight: bold;
+ul {
+    list-style: square inside;
 }
+
+
+/* =====================================================
+   6️⃣ BACKGROUND
+   ===================================================== */
+
+/* ❌ ERRO CONCEITUAL ORIGINAL:
+   Repetição de estilos de p em várias seções
+*/
 
 .bg {
     background-color: lightgreen;
     background-image: url('./images/sukuna.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .bg-image {
-    width: 1308px;
-    height: 736px;
+    width: 100%;
+    height: 500px;
 }
 
-/* backgroud-repeat no-repeat= serve para não repetir "noprepeat" mas tbm pode ser usada com y ou x
-backgroud-attachment fixed = fixa no fundo do site a imagem sem que ela scrolla
-backgroud-position = ele ajuda a fixar a imagem em algum lugar que deseja, abaixo, acima, esquerda, direita ou até msm por pixel  
-*/
+/* =====================================================
+   7️⃣ RESET + DISPLAY
+   ===================================================== */
 
-/*-------------------------------------------------------*/
-/*-------------------------Display-----------------------*/
-/*-------------------------------------------------------*/
-
-
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-    font-size: 24px;
+    font-size: 16px; /* valor padrão recomendado */
 }
 
 ul {
     margin-bottom: 50px;
 }
 
-.em-bloco li{
+/* Display block (padrão) */
+.em-bloco li {
     background: aqua;
     margin-bottom: 10px;
     width: 100px;
 }
 
+/* Display inline */
 .em-linha li {
     display: inline;
     background: aqua;
 }
 
+/* Inline-block */
 .em-linha-e-bloco li {
     display: inline-block;
     background: aqua;
@@ -194,18 +184,15 @@ ul {
     height: 100px;
 }
 
+/* Remove elemento da tela */
 .esconder {
     display: none;
 }
 
 
-/*-------------------------------------------------------*/
-/*-----------------------Position------------------------*/
-/*-------------------------------------------------------*/
-
- * {
-    margin: 0;
-}
+/* =====================================================
+   8️⃣ POSITION: STATIC, RELATIVE, ABSOLUTE
+   ===================================================== */
 
 .elemento {
     color: #fff;
@@ -229,47 +216,48 @@ ul {
 
 .elemento-absoluto {
     position: absolute;
+    top: 0;
     left: 200px;
     background-color: darkcyan;
-    top: 0;
 }
 
-.elemento-filho {
+/* Pai com position relative */
+.elemento-pai {
     position: relative;
     width: 350px;
     height: 350px;
     background-color: aliceblue;
 }
 
-.elemento-pai {
+/* Filho absoluto respeitando o pai */
+.elemento-filho {
     position: absolute;
     bottom: 0;
     right: 0;
     width: 150px;
     height: 150px;
     background-color: darkcyan;
-} */
-
-/*-------------------------------------------------------*/
-/*-------------------Position Fixed----------------------*/
-/*-------------------------------------------------------*/
-
-* {
-    margin: 0;
 }
+
+
+/* =====================================================
+   9️⃣ POSITION FIXED
+   ===================================================== */
 
 body {
     height: 1500px;
-    padding-top: 67px;
+    padding-top: 80px; /* espaço para header fixo */
 }
 
 header {
-    font-size: 24px;
     position: fixed;
-    background-color: lightblue;
+    top: 0;
     width: 100%;
     padding: 20px;
-    top: 0;
-} 
+    background-color: lightblue;
+    font-size: 24px;
+}
 
-/* fixa o elemento na tela MENU  */
+/* 📌 POSITION FIXED:
+   O elemento fica preso à tela mesmo com scroll
+*/
