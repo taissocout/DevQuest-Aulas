@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  Documento HTML5
+  Este arquivo é um exemplo didático de TABELA HTML
+  com boas práticas, semântica e acessibilidade.
+-->
+
+<head>
+    <!-- Define o conjunto de caracteres (acentuação correta) -->
+    <meta charset="UTF-8">
+
+    <!-- Responsividade em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da aba do navegador -->
+    <title>Tabela de Produtos</title>
+</head>
+
+<body>
+
+    <!-- ============================ -->
+    <!-- TABELA HTML (TABLE) -->
+    <!-- ============================ -->
+
+    <!--
+      ❗ CORREÇÃO / BOA PRÁTICA:
+      Adicionamos <caption> para acessibilidade e SEO.
+      Screen readers conseguem identificar o propósito da tabela.
+    -->
+    <table border="1">
+
+        <!-- Título descritivo da tabela -->
+        <caption>Catálogo de Roupas</caption>
+
+        <!--
+          <thead> agrupa o cabeçalho da tabela
+          Melhora semântica e leitura por leitores de tela
+        -->
+        <thead>
+            <tr>
+                <!--
+                  <th> = table header
+                  Usado para títulos de colunas
+                -->
+                <th>Roupa</th>
+                <th>Cor</th>
+                <th>Tamanho</th>
+                <th>Preço</th>
+                <th>Disponibilidade</th>
+            </tr>
+        </thead>
+
+        <!--
+          <tbody> agrupa os dados principais da tabela
+        -->
+        <tbody>
+            <tr>
+                <!-- <td> = table data (dados da tabela) -->
+                <td>Camiseta</td>
+                <td>Azul</td>
+                <td>P</td>
+                <td>R$ 70,00</td>
+                <td>Em estoque</td>
+            </tr>
+
+            <tr>
+                <td>Calça</td>
+                <td>Azul</td>
+                <td>P</td>
+                <td>R$ 160,00</td>
+                <td>Esgotado</td>
+            </tr>
+        </tbody>
+
+        <!--
+          <tfoot> é opcional
+          Usado para totais, resumos ou observações finais
+        -->
+        <tfoot>
+            <tr>
+                <!--
+                  colspan="5" faz a célula ocupar todas as colunas
+                -->
+                <td colspan="5">Valores sujeitos a alteração sem aviso prévio</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <!-- ============================ -->
+    <!-- RESUMO DIDÁTICO -->
+    <!-- ============================ -->
+
+    <!--
+      ✔ table   → estrutura da tabela
+      ✔ caption → descrição da tabela (acessibilidade)
+      ✔ thead   → cabeçalho
+      ✔ tbody   → corpo da tabela
+      ✔ tfoot   → rodapé/resumo
+      ✔ tr      → linha
+      ✔ th      → célula de título
+      ✔ td      → célula de dado
+
+      ❌ ERRO COMUM EVITADO:
+      - Criar tabela só com <tr> e <td> sem semântica
+      - Não usar <th> no cabeçalho
+
+      💡 BOA PRÁTICA PROFISSIONAL:
+      Essa estrutura é a que você verá em projetos reais
+      e passa facilmente em code review.
+    -->
+
+</body>
+</html>
