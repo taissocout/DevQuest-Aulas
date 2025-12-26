@@ -39,5 +39,5 @@ p {
     /* background-position: bottom center;
     background-repeat: no-repeat; */
     height: 540px;
-    background: #black url('./images/fundo.jpg') no-repeat bottom center; /* encurtado */
+    background: #000 url('./images/fundo.jpg') no-repeat bottom center; /* encurtado */
 }
